@@ -1,62 +1,116 @@
-const questionElement = document.getElementById("question");
-const options = document.querySelectorAll(".option");
-const resultElement = document.getElementById("result");
-const nextButton = document.getElementById("nextButton");
-
-const quizData = [
-  { question: "あ", options: ["A", "I", "U", "E"], answer: "A" },
-  { question: "い", options: ["I", "E", "O", "U"], answer: "I" },
-  { question: "う", options: ["E", "U", "I", "O"], answer: "U" },
-  { question: "え", options: ["O", "E", "A", "I"], answer: "E" },
-  { question: "お", options: ["U", "A", "I", "O"], answer: "O" },
-];
-
-let currentQuestion = 0;
-let score = 0;
-
-function loadQuestion() {
-  const currentQuiz = quizData[currentQuestion];
-  questionElement.textContent = currentQuiz.question;
-  options.forEach((option, index) => {
-    option.textContent = currentQuiz.options[index];
-    option.addEventListener("click", checkAnswer);
-  });
-  resultElement.textContent = "";
-  nextButton.disabled = true;
+:root {
+  --background: #323437;
+  --button: #252729;
+  --button-hover: #ffffff;
+  --button-hover-text: #000000;
+  --container: #252729;
+  --text: #ffffff;
 }
 
-function checkAnswer(event) {
-  const selectedOption = event.target;
-  const currentQuiz = quizData[currentQuestion];
-
-  if (selectedOption.textContent === currentQuiz.answer) {
-    resultElement.textContent = "Correct!";
-    score++;
-  } else {
-    resultElement.textContent = "Wrong!";
-  }
-
-  options.forEach((option) => {
-    option.removeEventListener("click", checkAnswer);
-  });
-
-  nextButton.disabled = false;
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--background);
+  color: var(--text);
 }
 
-function nextQuestion() {
-  if (currentQuestion < quizData.length - 1) {
-    currentQuestion++;
-    loadQuestion();
-  } else {
-    questionElement.textContent = `Quiz completed! Your score: ${score}/${quizData.length}`;
-    options.forEach((option) => {
-      option.style.display = "none";
-    });
-    resultElement.textContent = "";
-    nextButton.style.display = "none";
-  }
+.options-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
-nextButton.addEventListener("click", nextQuestion);
+.option-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: var(--button);
+  color: var(--text);
+}
 
-loadQuestion();
+.option-button:hover {
+  background-color: var(--button-hover);
+  color: var(--button-hover-text);
+}
+
+.quiz-container {
+  background-color: var(--container);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.question {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.option {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.option:hover {
+  background-color: var(--button-hover);
+  color: var(--button-hover-text);
+}
+
+.result {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.next-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+  background-color: var(--container);
+  color: var(--text);
+  /* text-transform: uppercase; */
+}
+
+.next-button:hover {
+  background-color: var(--button-hover);
+  color: var(--button-hover-text);
+}
+
+.restart-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+  background-color: var(--container);
+  color: var(--text);
+  /* text-transform: uppercase; */
+  display: none;
+}
+
+.restart-button:hover {
+  background-color: var(--button-hover);
+  color: var(--button-hover-text);
+}
