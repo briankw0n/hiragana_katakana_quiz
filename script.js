@@ -1,116 +1,134 @@
-:root {
-  --background: #323437;
-  --button: #252729;
-  --button-hover: #ffffff;
-  --button-hover-text: #000000;
-  --container: #252729;
-  --text: #ffffff;
+import { hiraganaCharacters, katakanaCharacters } from './characters.js';
+
+const hiraganaButton = document.getElementById("hiraganaButton");
+const katakanaButton = document.getElementById("katakanaButton");
+const bothButton = document.getElementById("bothButton");
+
+hiraganaButton.addEventListener("click", () => startQuiz("hiragana"));
+katakanaButton.addEventListener("click", () => startQuiz("katakana"));
+bothButton.addEventListener("click", () => startQuiz("both"));
+
+const questionElement = document.getElementById("question");
+const options = document.querySelectorAll(".option");
+const resultElement = document.getElementById("result");
+const nextButton = document.getElementById("nextButton");
+const counter = document.getElementById("current");
+const restartButton = document.getElementById("restartButton");
+
+let currentQuestion = 0;
+let score = 0;
+let totalQuestions = 5;
+nextButton.style.display = "none";
+let currentCharacters;
+
+function startQuiz(mode) {
+  // Clear any previous selections
+  currentQuestion = 0;
+  score = 0;
+  resultElement.textContent = "";
+  nextButton.style.display = "block";
+  
+  // Determine which characters to use based on the selected mode
+  if (mode === "hiragana") {
+    currentCharacters = hiraganaCharacters;
+    document.getElementById("title").textContent = "Hiragana Characters";
+  } else if (mode === "katakana") {
+    currentCharacters = katakanaCharacters;
+    document.getElementById("title").textContent = "Katakana Characters";
+  } else {
+    currentCharacters = hiraganaCharacters.concat(katakanaCharacters);
+    document.getElementById("title").textContent = "Hiragana/Katakana Characters";
+  }
+  
+  // Hide the mode selection buttons and show the quiz container
+  document.querySelector(".options-container").style.display = "none";
+  document.querySelector(".quiz-container").style.display = "block";
+  
+  loadQuestion();
 }
 
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: var(--background);
-  color: var(--text);
+// Helper function to shuffle an array using Fisher-Yates algorithm
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }
 
-.options-container {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+function loadQuestion() {
+  // Shuffle the questions and options
+  shuffleArray(currentCharacters);
+  const currentQuiz = currentCharacters[currentQuestion];
+
+  // Display the question and options
+  questionElement.textContent = currentQuiz.question;
+  shuffleArray(currentQuiz.options);
+  options.forEach((option, index) => {
+    option.textContent = currentQuiz.options[index];
+    option.addEventListener("click", checkAnswer);
+  });
+  resultElement.textContent = "";
+  nextButton.disabled = true;
+  document.getElementById("current").textContent = `${currentQuestion + 1}/${totalQuestions}`;
 }
 
-.option-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: var(--button);
-  color: var(--text);
+function checkAnswer(event) {
+  const selectedOption = event.target;
+  const currentQuiz = currentCharacters[currentQuestion];
+
+  if (selectedOption.textContent === currentQuiz.answer) {
+    // resultElement.textContent = "Correct!";
+    score++;
+    selectedOption.style.backgroundColor = "green"; // Apply green border for correct answer
+  } else {
+    // resultElement.textContent = "Wrong!";
+    selectedOption.style.backgroundColor = "red"; // Apply red border for incorrect answer
+  }
+
+  options.forEach((option) => {
+    option.removeEventListener("click", checkAnswer);
+  });
+
+  nextButton.disabled = false;
 }
 
-.option-button:hover {
-  background-color: var(--button-hover);
-  color: var(--button-hover-text);
+function nextQuestion() {
+  // Reset the borders when moving to the next question
+  options.forEach((option) => {
+    option.style.backgroundColor = "#323437"; // Reset background color
+  });
+
+  if (currentQuestion < totalQuestions - 1) {
+    currentQuestion++;
+    loadQuestion();
+  } else {
+    questionElement.textContent = `Quiz completed! Your score: ${score}/${totalQuestions}`;
+    options.forEach((option) => {
+      option.style.display = "none";
+    });
+    resultElement.textContent = "";
+    nextButton.style.display = "none";
+    counter.style.display = "none";
+    restartButton.style.display = "block";
+  }
 }
 
-.quiz-container {
-  background-color: var(--container);
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center;
+function restartGame() {
+  currentQuestion = 0;
+  score = 0;
+  resultElement.textContent = "";
+  nextButton.style.display = "block";
+  restartButton.style.display = "none";
+  // Reset the display property of options
+  options.forEach((option) => {
+    option.style.display = "block";
+  });
+  counter.style.display = "block";
+  loadQuestion();
 }
 
-.question {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
+nextButton.addEventListener("click", nextQuestion);
+restartButton.addEventListener("click", restartGame);
 
-.options {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.option {
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: var(--background);
-  color: var(--text);
-}
-
-.option:hover {
-  background-color: var(--button-hover);
-  color: var(--button-hover-text);
-}
-
-.result {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.next-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 0 auto;
-  background-color: var(--container);
-  color: var(--text);
-  /* text-transform: uppercase; */
-}
-
-.next-button:hover {
-  background-color: var(--button-hover);
-  color: var(--button-hover-text);
-}
-
-.restart-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 0 auto;
-  background-color: var(--container);
-  color: var(--text);
-  /* text-transform: uppercase; */
-  display: none;
-}
-
-.restart-button:hover {
-  background-color: var(--button-hover);
-  color: var(--button-hover-text);
-}
+// loadQuestion();
