@@ -182,4 +182,116 @@ const katakanaCharacters = [
   { question: "ニョ", options: ["NYO", "NE", "NYA", "NYU"], answer: "NYO" }
 ];
 
-export { hiraganaCharacters, katakanaCharacters };
+const kanjiCharacters = [
+  { question: "一", options: ["One", "Two", "Three", "Four"], answer: "One" },
+  { question: "二", options: ["Two", "Three", "Four", "Five"], answer: "Two" },
+  { question: "三", options: ["Three", "Four", "Five", "Six"], answer: "Three" },
+  { question: "四", options: ["Four", "Five", "Six", "Seven"], answer: "Four" },
+  { question: "五", options: ["Five", "Six", "Seven", "Eight"], answer: "Five" },
+  { question: "六", options: ["Six", "Seven", "Eight", "Nine"], answer: "Six" },
+  { question: "七", options: ["Seven", "Eight", "Nine", "Ten"], answer: "Seven" },
+  { question: "八", options: ["Eight", "Nine", "Ten", "Hundred"], answer: "Eight" },
+  { question: "九", options: ["Nine", "Ten", "Hundred", "Thousand"], answer: "Nine" },
+  { question: "十", options: ["Ten", "Hundred", "Thousand", "One"], answer: "Ten" },
+  { question: "百", options: ["Hundred", "Thousand", "Ten", "One"], answer: "Hundred" },
+  { question: "千", options: ["Thousand", "Ten", "One", "Hundred"], answer: "Thousand" },
+  { question: "万", options: ["Ten Thousand", "One", "Hundred", "Thousand"], answer: "Ten Thousand" },
+  { question: "円", options: ["Yen", "Dollar", "Euro", "Pound"], answer: "Yen" },
+  { question: "時", options: ["Time", "Hour", "Day", "Week"], answer: "Time" },
+  { question: "分", options: ["Minute", "Hour", "Day", "Month"], answer: "Minute" },
+  { question: "本", options: ["Book", "Tree", "River", "Sun"], answer: "Book" },
+  { question: "月", options: ["Month", "Sun", "Day", "Year"], answer: "Month" },
+  { question: "年", options: ["Year", "Month", "Day", "Week"], answer: "Year" },
+  { question: "日", options: ["Day", "Sun", "Month", "Week"], answer: "Day" },
+  { question: "週", options: ["Week", "Day", "Month", "Year"], answer: "Week" },
+  { question: "木", options: ["Tree", "Water", "Fire", "Earth"], answer: "Tree" },
+  { question: "水", options: ["Water", "Tree", "Fire", "Earth"], answer: "Water" },
+  { question: "火", options: ["Fire", "Water", "Wind", "Earth"], answer: "Fire" },
+  { question: "土", options: ["Earth", "Tree", "Water", "Fire"], answer: "Earth" },
+  { question: "金", options: ["Gold", "Water", "Fire", "Earth"], answer: "Gold" },
+  { question: "白", options: ["White", "Black", "Red", "Blue"], answer: "White" },
+  { question: "赤", options: ["Red", "Blue", "Green", "Yellow"], answer: "Red" },
+  { question: "青", options: ["Blue", "Red", "Green", "Yellow"], answer: "Blue" },
+  { question: "黒", options: ["Black", "White", "Red", "Blue"], answer: "Black" },
+  { question: "田", options: ["Rice Field", "River", "Mountain", "Sun"], answer: "Rice Field" },
+  { question: "山", options: ["Mountain", "River", "Rice Field", "Sun"], answer: "Mountain" },
+  { question: "川", options: ["River", "Mountain", "Rice Field", "Sun"], answer: "River" },
+  { question: "夜", options: ["Night", "Day", "Morning", "Evening"], answer: "Night" },
+  { question: "朝", options: ["Morning", "Day", "Night", "Evening"], answer: "Morning" },
+  { question: "昼", options: ["Daytime", "Morning", "Night", "Evening"], answer: "Daytime" },
+  { question: "夕", options: ["Evening", "Day", "Morning", "Night"], answer: "Evening" },
+  { question: "男", options: ["Man", "Woman", "Boy", "Girl"], answer: "Man" },
+  { question: "女", options: ["Woman", "Man", "Girl", "Boy"], answer: "Woman" },
+  { question: "子", options: ["Child", "Parent", "Adult", "Elder"], answer: "Child" },
+  { question: "人", options: ["Person", "Tree", "Water", "Fire"], answer: "Person" },
+  { question: "名", options: ["Name", "Person", "Tree", "Water"], answer: "Name" },
+  { question: "友", options: ["Friend", "Enemy", "Stranger", "Acquaintance"], answer: "Friend" },
+  { question: "学", options: ["Study", "Teach", "Learn", "Know"], answer: "Study" },
+  { question: "校", options: ["School", "Work", "Home", "Store"], answer: "School" },
+  { question: "先", options: ["Previous", "Next", "First", "Last"], answer: "Previous" },
+  { question: "生", options: ["Life", "Death", "Birth", "Old Age"], answer: "Life" },
+  { question: "行", options: ["Go", "Come", "Run", "Walk"], answer: "Go" },
+  { question: "来", options: ["Come", "Go", "Run", "Walk"], answer: "Come" },
+  { question: "食", options: ["Eat", "Drink", "Sleep", "Play"], answer: "Eat" },
+  { question: "飲", options: ["Drink", "Eat", "Sleep", "Play"], answer: "Drink" },
+  { question: "読", options: ["Read", "Write", "Speak", "Listen"], answer: "Read" },
+  { question: "書", options: ["Write", "Read", "Speak", "Listen"], answer: "Write" },
+  { question: "話", options: ["Speak", "Listen", "Read", "Write"], answer: "Speak" },
+  { question: "聞", options: ["Listen", "Speak", "Read", "Write"], answer: "Listen" },
+  { question: "見", options: ["See", "Look", "Watch", "Read"], answer: "See" },
+  { question: "知", options: ["Know", "Learn", "Teach", "Study"], answer: "Know" },
+  { question: "気", options: ["Spirit", "Energy", "Air", "Water"], answer: "Spirit" },
+  { question: "天", options: ["Heaven", "Earth", "Sun", "Moon"], answer: "Heaven" },
+  { question: "地", options: ["Earth", "Heaven", "Sun", "Moon"], answer: "Earth" },
+  { question: "空", options: ["Sky", "Ground", "Sea", "Mountain"], answer: "Sky" },
+  { question: "海", options: ["Sea", "Sky", "Ground", "Mountain"], answer: "Sea" },
+  { question: "風", options: ["Wind", "Rain", "Sun", "Snow"], answer: "Wind" },
+  { question: "雨", options: ["Rain", "Wind", "Sun", "Snow"], answer: "Rain" },
+  { question: "雪", options: ["Snow", "Rain", "Wind", "Sun"], answer: "Snow" },
+  { question: "花", options: ["Flower", "Tree", "Grass", "Leaf"], answer: "Flower" },
+  { question: "木", options: ["Tree", "Water", "Fire", "Earth"], answer: "Tree" },
+  { question: "草", options: ["Grass", "Tree", "Flower", "Leaf"], answer: "Grass" },
+  { question: "花", options: ["Flower", "Tree", "Grass", "Leaf"], answer: "Flower" },
+  { question: "道", options: ["Road", "Street", "Path", "Highway"], answer: "Road" },
+  { question: "町", options: ["Town", "City", "Village", "Country"], answer: "Town" },
+  { question: "市", options: ["City", "Town", "Village", "Country"], answer: "City" },
+  { question: "村", options: ["Village", "Town", "City", "Country"], answer: "Village" },
+  { question: "国", options: ["Country", "Town", "City", "Village"], answer: "Country" },
+  { question: "会", options: ["Meet", "Join", "Leave", "Stay"], answer: "Meet" },
+  { question: "社", options: ["Company", "Society", "Club", "Group"], answer: "Company" },
+  { question: "田", options: ["Rice Field", "River", "Mountain", "Sun"], answer: "Rice Field" },
+  { question: "家", options: ["House", "Home", "Building", "Room"], answer: "House" },
+  { question: "店", options: ["Store", "Shop", "Market", "Restaurant"], answer: "Store" },
+  { question: "本", options: ["Book", "Tree", "River", "Sun"], answer: "Book" },
+  { question: "電", options: ["Electricity", "Water", "Fire", "Earth"], answer: "Electricity" },
+  { question: "車", options: ["Car", "Bicycle", "Train", "Bus"], answer: "Car" },
+  { question: "手", options: ["Hand", "Foot", "Head", "Leg"], answer: "Hand" },
+  { question: "足", options: ["Foot", "Hand", "Head", "Leg"], answer: "Foot" },
+  { question: "目", options: ["Eye", "Ear", "Nose", "Mouth"], answer: "Eye" },
+  { question: "耳", options: ["Ear", "Eye", "Nose", "Mouth"], answer: "Ear" },
+  { question: "鼻", options: ["Nose", "Eye", "Ear", "Mouth"], answer: "Nose" },
+  { question: "口", options: ["Mouth", "Eye", "Ear", "Nose"], answer: "Mouth" },
+  { question: "手", options: ["Hand", "Foot", "Head", "Leg"], answer: "Hand" },
+  { question: "足", options: ["Foot", "Hand", "Head", "Leg"], answer: "Foot" },
+  { question: "頭", options: ["Head", "Hand", "Foot", "Leg"], answer: "Head" },
+  { question: "顔", options: ["Face", "Head", "Hand", "Foot"], answer: "Face" },
+  { question: "体", options: ["Body", "Head", "Hand", "Foot"], answer: "Body" },
+  { question: "心", options: ["Heart", "Mind", "Soul", "Spirit"], answer: "Heart" },
+  { question: "意", options: ["意味", "思い", "気持ち", "感じ"], answer: "意味" }, // Meaning
+  { question: "思", options: ["思う", "意見", "考える", "話す"], answer: "思う" }, // Think
+  { question: "言", options: ["言う", "話す", "聞く", "書く"], answer: "言う" }, // Say
+  { question: "話", options: ["話す", "言う", "聞く", "書く"], answer: "話す" }, // Talk
+  { question: "聞", options: ["聞く", "話す", "言う", "書く"], answer: "聞く" }, // Listen
+  { question: "書", options: ["書く", "読む", "話す", "聞く"], answer: "書く" }, // Write
+  { question: "読", options: ["読む", "書く", "話す", "聞く"], answer: "読む" }, // Read
+  { question: "出", options: ["出る", "入る", "行く", "来る"], answer: "出る" }, // Exit
+  { question: "入", options: ["入る", "出る", "行く", "来る"], answer: "入る" }, // Enter
+  { question: "行", options: ["行く", "来る", "出る", "入る"], answer: "行く" }, // Go
+  { question: "来", options: ["来る", "行く", "出る", "入る"], answer: "来る" }, // Come
+  { question: "会", options: ["会う", "知る", "合う", "見る"], answer: "会う" }, // Meet
+  { question: "知", options: ["知る", "会う", "合う", "見る"], answer: "知る" }, // Know
+  { question: "合", options: ["合う", "会う", "知る", "見る"], answer: "合う" }, // Match
+  { question: "見", options: ["見る", "会う", "知る", "合う"], answer: "見る" }, // See
+];
+
+export { hiraganaCharacters, katakanaCharacters, kanjiCharacters };
