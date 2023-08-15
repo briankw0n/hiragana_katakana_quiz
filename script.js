@@ -94,11 +94,13 @@ function checkAnswer(event) {
   } else {
     // resultElement.textContent = "Wrong!";
     selectedOption.style.backgroundColor = "red"; // Apply red border for incorrect answer
+    options.forEach((option) => {
+      option.removeEventListener("click", checkAnswer);
+      if (option.textContent === currentQuiz.answer) {
+        option.style.backgroundColor = "green"; // Highlight correct answer
+      }
+    })
   }
-
-  options.forEach((option) => {
-    option.removeEventListener("click", checkAnswer);
-  });
 
   nextButton.disabled = false;
 }
