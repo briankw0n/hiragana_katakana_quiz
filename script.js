@@ -1,12 +1,16 @@
-import { hiraganaCharacters, katakanaCharacters } from './characters.js';
+import { hiraganaCharacters, katakanaCharacters, kanjiCharacters } from './characters.js';
 
 const hiraganaButton = document.getElementById("hiraganaButton");
 const katakanaButton = document.getElementById("katakanaButton");
 const bothButton = document.getElementById("bothButton");
+const kanjiButton = document.getElementById("kanjiButton");
+const allButton = document.getElementById("allButton");
 
 hiraganaButton.addEventListener("click", () => startQuiz("hiragana"));
 katakanaButton.addEventListener("click", () => startQuiz("katakana"));
 bothButton.addEventListener("click", () => startQuiz("both"));
+kanjiButton.addEventListener("click", () => startQuiz("kanji"));
+allButton.addEventListener("click", () => startQuiz("all"));
 
 const questionElement = document.getElementById("question");
 const options = document.querySelectorAll(".option");
@@ -17,7 +21,7 @@ const restartButton = document.getElementById("restartButton");
 
 let currentQuestion = 0;
 let score = 0;
-let totalQuestions = 5;
+let totalQuestions = 10;
 nextButton.style.display = "none";
 let currentCharacters;
 
@@ -35,9 +39,15 @@ function startQuiz(mode) {
   } else if (mode === "katakana") {
     currentCharacters = katakanaCharacters;
     document.getElementById("title").textContent = "Katakana Characters";
-  } else {
+  } else if (mode === "both") {
     currentCharacters = hiraganaCharacters.concat(katakanaCharacters);
     document.getElementById("title").textContent = "Hiragana/Katakana Characters";
+  } else if (mode === "kanji") {
+    currentCharacters = kanjiCharacters;
+    document.getElementById("title").textContent = "Kanji Characters";
+  } else {
+    currentCharacters = hiraganaCharacters.concat(katakanaCharacters).concat(kanjiCharacters);
+    document.getElementById("title").textContent = "All Characters";
   }
   
   // Hide the mode selection buttons and show the quiz container
