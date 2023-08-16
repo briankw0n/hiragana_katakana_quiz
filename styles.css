@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 85vh;
   text-align: center;
   background-color: var(--background);
   color: var(--text);
@@ -156,8 +156,4 @@ body {
 .home-button:hover {
   background-color: var(--button-hover);
   color: var(--button-hover-text);
-}
-
-@media (max-width: 767px) {
-  
 }
