@@ -158,3 +158,10 @@ body {
   background-color: var(--button-hover);
   color: var(--button-hover-text);
 }
+
+@media (max-width: 767px) {
+  .container {
+    max-height: 60vh;
+    overflow: hidden;
+  }
+}
