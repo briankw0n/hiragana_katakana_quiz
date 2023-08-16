@@ -158,6 +158,6 @@ body {
 @media (max-width: 767px) {
   .container {
     max-height: 100vh;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
   }
 }
