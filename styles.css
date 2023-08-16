@@ -160,8 +160,11 @@ body {
 }
 
 @media (max-width: 767px) {
-  .container {
-    max-height: 60vh;
+  body {
     overflow: hidden;
+  }
+
+  .container {
+    max-height: 70vh;
   }
 }
