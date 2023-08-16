@@ -166,6 +166,6 @@ body {
   }
 
   .container {
-    max-height: 60vh;
+    height: 70vh;
   }
 }
