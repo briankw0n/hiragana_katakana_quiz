@@ -157,7 +157,8 @@ body {
 
 @media (max-width: 767px) {
   .container {
-    top: 25%;
+    position: absolute;
+    top: 200px;
     overflow: hidden;
   }
 }
