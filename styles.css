@@ -20,9 +20,13 @@ body {
 }
 
 .options-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  margin-bottom: 20px;
+}
+
+.options-container .option-button:last-child {
+  grid-column: span 2;
 }
 
 .option-button {
@@ -46,6 +50,9 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 300px;
+  height: 250px;
+  display: none;
 }
 
 .question {
@@ -70,9 +77,23 @@ body {
   color: var(--text);
 }
 
-.option:hover {
+/* .option:hover {
   background-color: var(--button-hover);
   color: var(--button-hover-text);
+} */
+
+.correct {
+  background-color: green;
+}
+
+.incorrect {
+  background-color: red;
+}
+
+.no-hover {
+  /* Disable hover styles */
+  background-color: #323437;
+  color: white;
 }
 
 .result {
@@ -115,13 +136,20 @@ body {
   color: var(--button-hover-text);
 }
 
-@media (max-width: 767px) {
-  .options-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+.home-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+  background-color: var(--container);
+  color: var(--text);
+  /* text-transform: uppercase; */
+  display: none;
+}
 
-  .options-container .option-button:last-child {
-    grid-column: span 2;
-  }
+.home-button:hover {
+  background-color: var(--button-hover);
+  color: var(--button-hover-text);
 }
