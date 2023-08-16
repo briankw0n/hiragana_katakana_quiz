@@ -18,7 +18,6 @@ body {
   text-align: center;
   background-color: var(--background);
   color: var(--text);
-  overflow: hidden;
 }
 
 .options-container {
