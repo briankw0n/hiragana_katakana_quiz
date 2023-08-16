@@ -157,7 +157,6 @@ body {
 
 @media (max-width: 767px) {
   .container {
-    display: block;
-    max-height: 100vh;
+    max-height: 75vh;
   }
 }
