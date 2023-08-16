@@ -58,7 +58,7 @@ const hiraganaCharacters = [
   { question: "ぞ", options: ["ZO", "ZE", "ZU", "ZA"], answer: "ZO" },
   { question: "だ", options: ["DA", "JI", "DU", "DE"], answer: "DA" },
   { question: "ぢ", options: ["JI", "DU", "DE", "DA"], answer: "JI" },
-  { question: "づ", options: ["DU", "DE", "DA", "JI"], answer: "DU" },
+  { question: "づ", options: ["ZU", "ZE", "ZA", "ZI"], answer: "ZU" },
   { question: "で", options: ["DE", "DA", "JI", "DU"], answer: "DE" },
   { question: "ど", options: ["DO", "DE", "DA", "DU"], answer: "DO" },
   // Han-Dakuten Characters
