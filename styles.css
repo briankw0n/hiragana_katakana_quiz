@@ -157,6 +157,6 @@ body {
 
 @media (max-width: 767px) {
   .container {
-    max-height: 150vh;
+    max-height: 1000px;
   }
 }
