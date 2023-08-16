@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-height: 100vh;
+  height: 100vh;
   margin: 0;
   background-color: var(--background);
   color: var(--text);
@@ -152,4 +152,10 @@ body {
 .home-button:hover {
   background-color: var(--button-hover);
   color: var(--button-hover-text);
+}
+
+@media (max-width: 767px) {
+  body {
+    max-height: 100vh;
+  }
 }
