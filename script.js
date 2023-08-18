@@ -16,6 +16,7 @@ const title = document.getElementById("title");
 const questionElement = document.getElementById("question");
 const options = document.querySelectorAll(".option");
 const resultElement = document.getElementById("result");
+const switchButton = document.getElementById("switchButton");
 const nextButton = document.getElementById("nextButton");
 const counter = document.getElementById("current");
 const restartButton = document.getElementById("restartButton");
@@ -25,6 +26,8 @@ let totalQuestions = 10;
 let currentQuestion = 0;
 let score = 0;
 let currentCharacters;
+let gameMode;
+let currentLanguage = "jp";
 nextButton.style.display = "none";
 
 function startQuiz(mode) {
@@ -37,18 +40,24 @@ function startQuiz(mode) {
   
   // Determine which characters to use based on the selected mode
   if (mode === "hiragana") {
+    gameMode = "hiragana";
     currentCharacters = hiraganaCharacters;
     document.getElementById("title").textContent = "Hiragana";
   } else if (mode === "katakana") {
+    gameMode = "katakana";
     currentCharacters = katakanaCharacters;
     document.getElementById("title").textContent = "Katakana";
   } else if (mode === "both") {
+    gameMode = "both";
     currentCharacters = hiraganaCharacters.concat(katakanaCharacters);
     document.getElementById("title").textContent = "Hiragana/Katakana";
   } else if (mode === "kanji") {
+    gameMode = "kanji";
     currentCharacters = kanjiCharacters;
     document.getElementById("title").textContent = "Kanji";
+    switchButton.style.display = "flex";
   } else {
+    gameMode = "all";
     currentCharacters = hiraganaCharacters.concat(katakanaCharacters).concat(kanjiCharacters);
     document.getElementById("title").textContent = "All Characters";
   }
@@ -76,30 +85,68 @@ function loadQuestion() {
 
   // Display the question and options
   questionElement.textContent = currentQuiz.question;
-  shuffleArray(currentQuiz.options);
-  options.forEach((option, index) => {
-    option.textContent = currentQuiz.options[index];
-    option.addEventListener("click", checkAnswer);
-  });
+
+  if (gameMode === "kanji") {
+    shuffleArray(currentQuiz.options[currentLanguage]);
+    options.forEach((option, index) => {
+      option.textContent = currentQuiz.options[currentLanguage][index];
+      option.addEventListener("click", checkAnswer);
+    });
+  } else {
+    shuffleArray(currentQuiz.options);
+    options.forEach((option, index) => {
+      option.textContent = currentQuiz.options[index];
+      option.addEventListener("click", checkAnswer);
+    });
+  }
+
   resultElement.textContent = "";
   nextButton.disabled = true;
-  document.getElementById("current").textContent = `${currentQuestion + 1}/${totalQuestions}`;
+  counter.textContent = `${currentQuestion + 1}/${totalQuestions}`;
 }
 
 function checkAnswer(event) {
   const selectedOption = event.target;
   const currentQuiz = currentCharacters[currentQuestion];
 
-  if (selectedOption.textContent === currentQuiz.answer) {
-    selectedOption.classList.add("correct");
-    score++;
-  } else {
-    selectedOption.classList.add("incorrect");
-    options.forEach((option) => {
-      if (option.textContent === currentQuiz.answer) {
-        option.classList.add("correct");
+  if (gameMode === "kanji") {
+    if (currentLanguage === "jp") {
+      if (selectedOption.textContent === currentQuiz.answer.jp) {
+        selectedOption.classList.add("correct");
+        score++;
+      } else {
+        selectedOption.classList.add("incorrect");
+        options.forEach((option) => {
+          if (option.textContent === currentQuiz.answer.jp) {
+            option.classList.add("correct");
+          }
+        });
       }
-    });
+    } else {
+      if (selectedOption.textContent === currentQuiz.answer.en) {
+        selectedOption.classList.add("correct");
+        score++;
+      } else {
+        selectedOption.classList.add("incorrect");
+        options.forEach((option) => {
+          if (option.textContent === currentQuiz.answer.en) {
+            option.classList.add("correct");
+          }
+        });
+      }
+    }
+  } else {
+    if (selectedOption.textContent === currentQuiz.answer) {
+      selectedOption.classList.add("correct");
+      score++;
+    } else {
+      selectedOption.classList.add("incorrect");
+      options.forEach((option) => {
+        if (option.textContent === currentQuiz.answer) {
+          option.classList.add("correct");
+        }
+      });
+    }
   }
 
   options.forEach((option) => {
@@ -122,6 +169,7 @@ function nextQuestion() {
       option.style.display = "none";
     });
     resultElement.textContent = "";
+    switchButton.style.display = "none";
     nextButton.style.display = "none";
     counter.style.display = "none";
     restartButton.style.display = "block";
@@ -170,6 +218,17 @@ function restartGame() {
   resultElement.textContent = "";
   title.textContent = "Japanese Quiz";
 }
+
+switchButton.addEventListener("click", () => {
+  if (currentLanguage === "jp") {
+    currentLanguage = "en";
+    switchButton.textContent = "Kana";
+  } else {
+    currentLanguage = "jp";
+    switchButton.textContent = "English";
+  }
+  loadQuestion();
+});
 
 nextButton.addEventListener("click", nextQuestion);
 restartButton.addEventListener("click", playAgain);
