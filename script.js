@@ -78,7 +78,13 @@ function shuffleArray(array) {
   return array;
 }
 
+function isKanjiCharacter(character) {
+  return kanjiCharacters.some((kanji) => kanji.question === character);
+}
+
 function loadQuestion() {
+  questionElement.style.padding = "0px";
+
   // Shuffle the questions and options
   shuffleArray(currentCharacters);
   const currentQuiz = currentCharacters[currentQuestion];
@@ -92,6 +98,24 @@ function loadQuestion() {
       option.textContent = currentQuiz.options[currentLanguage][index];
       option.addEventListener("click", checkAnswer);
     });
+  } else if (gameMode === "all") {
+    switchButton.style.display = "none";
+
+    if (isKanjiCharacter(currentQuiz.question)) {
+      questionElement.style.padding = "3px";
+
+      shuffleArray(currentQuiz.options[currentLanguage]);
+      options.forEach((option, index) => {
+        option.textContent = currentQuiz.options[currentLanguage][index];
+        option.addEventListener("click", checkAnswer);
+      });
+    } else {
+      shuffleArray(currentQuiz.options);
+      options.forEach((option, index) => {
+        option.textContent = currentQuiz.options[index];
+        option.addEventListener("click", checkAnswer);
+      });
+    }
   } else {
     shuffleArray(currentQuiz.options);
     options.forEach((option, index) => {
@@ -135,6 +159,7 @@ function checkAnswer(event) {
         });
       }
     }
+    switchButton.disabled = true;
   } else {
     if (selectedOption.textContent === currentQuiz.answer) {
       selectedOption.classList.add("correct");
@@ -156,6 +181,8 @@ function checkAnswer(event) {
 }
 
 function nextQuestion() {
+  switchButton.disabled = false;
+
   options.forEach((opt) => {
     opt.classList.remove("correct", "incorrect");
   });
