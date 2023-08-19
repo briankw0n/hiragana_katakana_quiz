@@ -161,16 +161,30 @@ function checkAnswer(event) {
     }
     switchButton.disabled = true;
   } else {
-    if (selectedOption.textContent === currentQuiz.answer) {
-      selectedOption.classList.add("correct");
-      score++;
+    if (isKanjiCharacter(currentQuiz.question)) {
+      if (selectedOption.textContent === currentQuiz.answer.jp) {
+        selectedOption.classList.add("correct");
+        score++;
+      } else {
+        selectedOption.classList.add("incorrect");
+        options.forEach((option) => {
+          if (option.textContent === currentQuiz.answer.jp) {
+            option.classList.add("correct");
+          }
+        });
+      }
     } else {
-      selectedOption.classList.add("incorrect");
-      options.forEach((option) => {
-        if (option.textContent === currentQuiz.answer) {
-          option.classList.add("correct");
-        }
-      });
+      if (selectedOption.textContent === currentQuiz.answer) {
+        selectedOption.classList.add("correct");
+        score++;
+      } else {
+        selectedOption.classList.add("incorrect");
+        options.forEach((option) => {
+          if (option.textContent === currentQuiz.answer) {
+            option.classList.add("correct");
+          }
+        });
+      }
     }
   }
 
