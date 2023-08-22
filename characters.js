@@ -3364,16 +3364,16 @@ const kanjiCharacters = [
   },
   // 団	竹	仲	虫	兆	伝	当	成	全	争	任	米	両
   {
-    question: 団,
+    question: "団",
     options: {
-      jp: [まるい, たいよう, ほし, あめ],
+      jp: ["まるい", "たいよう", "ほし", "あめ"],
       en: ["Group", "Sun", "Star", "Rain"] },
     answer: {
       jp: "まるい",
       en: "Group" }
   },
   {
-    question: 竹,
+    question: "竹",
     options: {
       jp: ["たけ", "たいよう", "ほし", "あめ"],
       en: ["Bamboo", "Sun", "Star", "Rain"] },
@@ -3382,7 +3382,7 @@ const kanjiCharacters = [
       en: "Bamboo" }
   },
   {
-    question: 仲,
+    question: "仲",
     options: {
       jp: ["なか", "たいよう", "ほし", "あめ"],
       en: ["Relationship", "Sun", "Star", "Rain"] },
@@ -3391,7 +3391,7 @@ const kanjiCharacters = [
       en: "Relationship" }
   },
   {
-    question: 虫,
+    question: "虫",
     options: {
       jp: ["むし", "たいよう", "ほし", "あめ"],
       en: ["Insect", "Sun", "Star", "Rain"] },
@@ -3400,7 +3400,7 @@ const kanjiCharacters = [
       en: "Insect" }
   },
   {
-    question: 兆,
+    question: "兆",
     options: {
       jp: ["きざし", "たいよう", "ほし", "あめ"],
       en: ["Omen", "Sun", "Star", "Rain"] },
@@ -3409,7 +3409,7 @@ const kanjiCharacters = [
       en: "Omen" }
   },
   {
-    question: 伝,
+    question: "伝",
     options: {
       jp: ["つたえる", "たいよう", "ほし", "あめ"],
       en: ["Transmit", "Sun", "Star", "Rain"] },
@@ -3418,7 +3418,7 @@ const kanjiCharacters = [
       en: "Transmit" }
   },
   {
-    question: 当,
+    question: "当",
     options: {
       jp: ["あたる", "たいよう", "ほし", "あめ"],
       en: ["Hit", "Sun", "Star", "Rain"] },
@@ -3427,7 +3427,7 @@ const kanjiCharacters = [
       en: "Hit" }
   },
   {
-    question: 成,
+    question: "成",
     options: {
       jp: ["なる", "たいよう", "ほし", "あめ"],
       en: ["Become", "Sun", "Star", "Rain"] },
@@ -3436,7 +3436,7 @@ const kanjiCharacters = [
       en: "Become" }
   },
   {
-    question: 全,
+    question: "全",
     options: {
       jp: ["すべて", "たいよう", "ほし", "あめ"],
       en: ["Whole", "Sun", "Star", "Rain"] },
@@ -3445,7 +3445,7 @@ const kanjiCharacters = [
       en: "Whole" }
   },
   {
-    question: 争,
+    question: "争",
     options: {
       jp: ["あらそう", "たいよう", "ほし", "あめ"],
       en: ["Conflict", "Sun", "Star", "Rain"] },
@@ -3454,7 +3454,7 @@ const kanjiCharacters = [
       en: "Conflict" }
   },
   {
-    question: 任,
+    question: "任",
     options: {
       jp: ["まかせる", "たいよう", "ほし", "あめ"],
       en: ["Assign", "Sun", "Star", "Rain"] },
@@ -3463,7 +3463,7 @@ const kanjiCharacters = [
       en: "Assign" }
   },
   {
-    question: 米,
+    question: "米",
     options: {
       jp: ["こめ", "たいよう", "ほし", "あめ"],
       en: ["Rice", "Sun", "Star", "Rain"] },
@@ -3472,7 +3472,7 @@ const kanjiCharacters = [
       en: "Rice" }
   },
   {
-    question: 両,
+    question: "両",
     options: {
       jp: ["りょう", "たいよう", "ほし", "あめ"],
       en: ["Both", "Sun", "Star", "Rain"] },
@@ -3482,7 +3482,7 @@ const kanjiCharacters = [
   },
   // 利	余	防	役	返	判	臣	身	折	努	投	対	束
   {
-    question: 利,
+    question: "利",
     options: {
       jp: ["きく", "あめ", "ようじん", "ひゃく"],
       en: ["Benefit", "Rain", "Sun", "Hundred"] },
@@ -3491,7 +3491,7 @@ const kanjiCharacters = [
       en: "Benefit" }
   },
   {
-    question: 余,
+    question: "余",
     options: {
       jp: ["あまる", "あめ", "ようじん", "ひゃく"],
       en: ["Surplus", "Rain", "Sun", "Hundred"] },
@@ -3500,7 +3500,7 @@ const kanjiCharacters = [
       en: "Surplus" }
   },
   {
-    question: 防,
+    question: "防",
     options: {
       jp: ["ふせぐ", "あめ", "ようじん", "ひゃく"],
       en: ["Defend", "Rain", "Sun", "Hundred"] },
@@ -3509,7 +3509,7 @@ const kanjiCharacters = [
       en: "Defend" }
   },
   {
-    question: 役,
+    question: "役",
     options: {
       jp: ["やく", "あめ", "ようじん", "ひゃく"],
       en: ["Role", "Rain", "Sun", "Hundred"] },
@@ -3518,7 +3518,7 @@ const kanjiCharacters = [
       en: "Role" }
   },
   {
-    question: 返,
+    question: "返",
     options: {
       jp: ["かえす", "あめ", "ようじん", "ひゃく"],
       en: ["Return", "Rain", "Sun", "Hundred"] },
@@ -3527,7 +3527,7 @@ const kanjiCharacters = [
       en: "Return" }
   },
   {
-    question: 判,
+    question: "判",
     options: {
       jp: ["わかる", "あめ", "ようじん", "ひゃく"],
       en: ["Judge", "Rain", "Sun", "Hundred"] },
@@ -3536,7 +3536,7 @@ const kanjiCharacters = [
       en: "Judge" }
   },
   {
-    question: 臣,
+    question: "臣",
     options: {
       jp: ["しん", "あめ", "ようじん", "ひゃく"],
       en: ["Minister", "Rain", "Sun", "Hundred"] },
@@ -3545,7 +3545,7 @@ const kanjiCharacters = [
       en: "Minister" }
   },
   {
-    question: 身,
+    question: "身",
     options: {
       jp: ["み", "あめ", "ようじん", "ひゃく"],
       en: ["Body", "Rain", "Sun", "Hundred"] },
@@ -3554,7 +3554,7 @@ const kanjiCharacters = [
       en: "Body" }
   },
   {
-    question: 折,
+    question: "折",
     options: {
       jp: ["おる", "あめ", "ようじん", "ひゃく"],
       en: ["Fold", "Rain", "Sun", "Hundred"] },
@@ -3563,7 +3563,7 @@ const kanjiCharacters = [
       en: "Fold" }
   },
   {
-    question: 努,
+    question: "努",
     options: {
       jp: ["つとめる", "あめ", "ようじん", "ひゃく"],
       en: ["Effort", "Rain", "Sun", "Hundred"] },
@@ -3572,7 +3572,7 @@ const kanjiCharacters = [
       en: "Effort" }
   },
   {
-    question: 投,
+    question: "投",
     options: {
       jp: ["なげる", "あめ", "ようじん", "ひゃく"],
       en: ["Throw", "Rain", "Sun", "Hundred"] },
@@ -3581,7 +3581,7 @@ const kanjiCharacters = [
       en: "Throw" }
   },
   {
-    question: 対,
+    question: "対",
     options: {
       jp: ["たい", "あめ", "ようじん", "ひゃく"],
       en: ["Opposite", "Rain", "Sun", "Hundred"] },
@@ -3590,7 +3590,7 @@ const kanjiCharacters = [
       en: "Opposite" }
   },
   {
-    question: 束,
+    question: "束",
     options: {
       jp: ["たば", "あめ", "ようじん", "ひゃく"],
       en: ["Bundle", "Rain", "Sun", "Hundred"] },
@@ -3600,7 +3600,7 @@ const kanjiCharacters = [
   },
   // 谷	位	囲	完	角	快	改	技	局	君	均	形	決
   {
-    question: 谷,
+    question: "谷",
     options: {
       jp: ["たに", "あめ", "ようじん", "ひゃく"],
       en: ["Valley", "Rain", "Sun", "Hundred"] },
@@ -3609,7 +3609,7 @@ const kanjiCharacters = [
       en: "Valley" }
   },
   {
-    question: 位,
+    question: "位",
     options: {
       jp: ["くらい", "あめ", "ようじん", "ひゃく"],
       en: ["Position", "Rain", "Sun", "Hundred"] },
@@ -3618,7 +3618,7 @@ const kanjiCharacters = [
       en: "Position" }
   },
   {
-    question: 囲,
+    question: "囲",
     options: {
       jp: ["かこむ", "あめ", "ようじん", "ひゃく"],
       en: ["Surround", "Rain", "Sun", "Hundred"] },
@@ -3627,7 +3627,7 @@ const kanjiCharacters = [
       en: "Surround" }
   },
   {
-    question: 完,
+    question: "完",
     options: {
       jp: ["かん", "あめ", "ようじん", "ひゃく"],
       en: ["Complete", "Rain", "Sun", "Hundred"] },
@@ -3636,7 +3636,7 @@ const kanjiCharacters = [
       en: "Complete" }
   },
   {
-    question: 角,
+    question: "角",
     options: {
       jp: ["かど", "あめ", "ようじん", "ひゃく"],
       en: ["Corner", "Rain", "Sun", "Hundred"] },
@@ -3645,7 +3645,7 @@ const kanjiCharacters = [
       en: "Corner" }
   },
   {
-    question: 快,
+    question: "快",
     options: {
       jp: ["こころよい", "あめ", "ようじん", "ひゃく"],
       en: ["Pleasant", "Rain", "Sun", "Hundred"] },
@@ -3654,7 +3654,7 @@ const kanjiCharacters = [
       en: "Pleasant" }
   },
   {
-    question: 改,
+    question: "改",
     options: {
       jp: ["あらためる", "あめ", "ようじん", "ひゃく"],
       en: ["Change", "Rain", "Sun", "Hundred"] },
@@ -3663,7 +3663,7 @@ const kanjiCharacters = [
       en: "Change" }
   },
   {
-    question: 技,
+    question: "技",
     options: {
       jp: ["わざ", "あめ", "ようじん", "ひゃく"],
       en: ["Technique", "Rain", "Sun", "Hundred"] },
@@ -3672,7 +3672,7 @@ const kanjiCharacters = [
       en: "Technique" }
   },
   {
-    question: 局,
+    question: "局",
     options: {
       jp: ["きょく", "あめ", "ようじん", "ひゃく"],
       en: ["Office", "Rain", "Sun", "Hundred"] },
@@ -3681,7 +3681,7 @@ const kanjiCharacters = [
       en: "Office" }
   },
   {
-    question: 君,
+    question: "君",
     options: {
       jp: ["きみ", "あめ", "ようじん", "ひゃく"],
       en: ["You", "Rain", "Sun", "Hundred"] },
@@ -3690,7 +3690,7 @@ const kanjiCharacters = [
       en: "You" }
   },
   {
-    question: 均,
+    question: "均",
     options: {
       jp: ["ならす", "あめ", "ようじん", "ひゃく"],
       en: ["Equal", "Rain", "Sun", "Hundred"] },
@@ -3699,7 +3699,7 @@ const kanjiCharacters = [
       en: "Equal" }
   },
   {
-    question: 形,
+    question: "形",
     options: {
       jp: ["かたち", "あめ", "ようじん", "ひゃく"],
       en: ["Shape", "Rain", "Sun", "Hundred"] },
@@ -3708,7 +3708,7 @@ const kanjiCharacters = [
       en: "Shape" }
   },
   {
-    question: 決,
+    question: "決",
     options: {
       jp: ["きめる", "あめ", "ようじん", "ひゃく"],
       en: ["Decide", "Rain", "Sun", "Hundred"] },
@@ -3718,7 +3718,7 @@ const kanjiCharacters = [
   },
   // 芸	求	希	告	材	坂	似	児	状	初	助	労	冷
   {
-    question: 芸,
+    question: "芸",
     options: {
       jp: ["げい", "あめ", "ようじん", "ひゃく"],
       en: ["Art", "Rain", "Sun", "Hundred"] },
@@ -3727,7 +3727,7 @@ const kanjiCharacters = [
       en: "Art" }
   },
   {
-    question: 求,
+    question: "求",
     options: {
       jp: ["もとめる", "あめ", "ようじん", "ひゃく"],
       en: ["Seek", "Rain", "Sun", "Hundred"] },
@@ -3736,7 +3736,7 @@ const kanjiCharacters = [
       en: "Seek" }
   },
   {
-    question: 希,
+    question: "希",
     options: {
       jp: ["まれ", "あめ", "ようじん", "ひゃく"],
       en: ["Rare", "Rain", "Sun", "Hundred"] },
@@ -3745,7 +3745,7 @@ const kanjiCharacters = [
       en: "Rare" }
   },
   {
-    question: 告,
+    question: "告",
     options: {
       jp: ["つげる", "あめ", "ようじん", "ひゃく"],
       en: ["Tell", "Rain", "Sun", "Hundred"] },
@@ -3754,7 +3754,7 @@ const kanjiCharacters = [
       en: "Tell" }
   },
   {
-    question: 材,
+    question: "材",
     options: {
       jp: ["ざい", "あめ", "ようじん", "ひゃく"],
       en: ["Material", "Rain", "Sun", "Hundred"] },
@@ -3763,7 +3763,7 @@ const kanjiCharacters = [
       en: "Material" }
   },
   {
-    question: 坂,
+    question: "坂",
     options: {
       jp: ["さか", "あめ", "ようじん", "ひゃく"],
       en: ["Slope", "Rain", "Sun", "Hundred"] },
@@ -3772,7 +3772,7 @@ const kanjiCharacters = [
       en: "Slope" }
   },
   {
-    question: 似,
+    question: "似",
     options: {
       jp: ["にる", "あめ", "ようじん", "ひゃく"],
       en: ["Similar", "Rain", "Sun", "Hundred"] },
@@ -3781,7 +3781,7 @@ const kanjiCharacters = [
       en: "Similar" }
   },
   {
-    question: 児,
+    question: "児",
     options: {
       jp: ["こ", "あめ", "ようじん", "ひゃく"],
       en: ["Child", "Rain", "Sun", "Hundred"] },
@@ -3790,7 +3790,7 @@ const kanjiCharacters = [
       en: "Child" }
   },
   {
-    question: 状,
+    question: "状",
     options: {
       jp: ["じょう", "あめ", "ようじん", "ひゃく"],
       en: ["Condition", "Rain", "Sun", "Hundred"] },
@@ -3799,7 +3799,7 @@ const kanjiCharacters = [
       en: "Condition" }
   },
   {
-    question: 初,
+    question: "初",
     options: {
       jp: ["はじめ", "あめ", "ようじん", "ひゃく"],
       en: ["First", "Rain", "Sun", "Hundred"] },
@@ -3808,7 +3808,7 @@ const kanjiCharacters = [
       en: "First" }
   },
   {
-    question: 助,
+    question: "助",
     options: {
       jp: ["たすける", "あめ", "ようじん", "ひゃく"],
       en: ["Help", "Rain", "Sun", "Hundred"] },
@@ -3817,7 +3817,7 @@ const kanjiCharacters = [
       en: "Help" }
   },
   {
-    question: 労,
+    question: "労",
     options: {
       jp: ["ろう", "あめ", "ようじん", "ひゃく"],
       en: ["Labor", "Rain", "Sun", "Hundred"] },
@@ -3826,7 +3826,7 @@ const kanjiCharacters = [
       en: "Labor" }
   },
   {
-    question: 冷,
+    question: "冷",
     options: {
       jp: ["つめたい", "あめ", "ようじん", "ひゃく"],
       en: ["Cold", "Rain", "Sun", "Hundred"] },
@@ -3836,7 +3836,7 @@ const kanjiCharacters = [
   },
   // 例	和	述	承	招	実	取	治	受	周	妻	参	枝
   {
-    question: 例,
+    question: "例",
     options: {
       jp: ["れい", "あめ", "ようじん", "ひゃく"],
       en: ["Example", "Rain", "Sun", "Hundred"] },
@@ -3845,7 +3845,7 @@ const kanjiCharacters = [
       en: "Example" }
   },
   {
-    question: 和,
+    question: "和",
     options: {
       jp: ["わ", "あめ", "ようじん", "ひゃく"],
       en: ["Harmony", "Rain", "Sun", "Hundred"] },
@@ -3854,7 +3854,7 @@ const kanjiCharacters = [
       en: "Harmony" }
   },
   {
-    question: 述,
+    question: "述",
     options: {
       jp: ["のべる", "あめ", "ようじん", "ひゃく"],
       en: ["State", "Rain", "Sun", "Hundred"] },
@@ -3863,7 +3863,7 @@ const kanjiCharacters = [
       en: "State" }
   },
   {
-    question: 承,
+    question: "承",
     options: {
       jp: ["うける", "あめ", "ようじん", "ひゃく"],
       en: ["Consent", "Rain", "Sun", "Hundred"] },
@@ -3872,7 +3872,7 @@ const kanjiCharacters = [
       en: "Consent" }
   },
   {
-    question: 招,
+    question: "招",
     options: {
       jp: ["まねく", "あめ", "ようじん", "ひゃく"],
       en: ["Invite", "Rain", "Sun", "Hundred"] },
@@ -3881,7 +3881,7 @@ const kanjiCharacters = [
       en: "Invite" }
   },
   {
-    question: 実,
+    question: "実",
     options: {
       jp: ["み", "あめ", "ようじん", "ひゃく"],
       en: ["Truth", "Rain", "Sun", "Hundred"] },
@@ -3890,7 +3890,7 @@ const kanjiCharacters = [
       en: "Truth" }
   },
   {
-    question: 取,
+    question: "取",
     options: {
       jp: ["とる", "あめ", "ようじん", "ひゃく"],
       en: ["Take", "Rain", "Sun", "Hundred"] },
@@ -3899,7 +3899,7 @@ const kanjiCharacters = [
       en: "Take" }
   },
   {
-    question: 治,
+    question: "治",
     options: {
       jp: ["おさめる", "あめ", "ようじん", "ひゃく"],
       en: ["Cure", "Rain", "Sun", "Hundred"] },
@@ -3908,7 +3908,7 @@ const kanjiCharacters = [
       en: "Cure" }
   },
   {
-    question: 受,
+    question: "受",
     options: {
       jp: ["うける", "あめ", "ようじん", "ひゃく"],
       en: ["Receive", "Rain", "Sun", "Hundred"] },
@@ -3917,7 +3917,7 @@ const kanjiCharacters = [
       en: "Receive" }
   },
   {
-    question: 周,
+    question: "周",
     options: {
       jp: ["まわり", "あめ", "ようじん", "ひゃく"],
       en: ["Around", "Rain", "Sun", "Hundred"] },
@@ -3926,7 +3926,7 @@ const kanjiCharacters = [
       en: "Around" }
   },
   {
-    question: 妻,
+    question: "妻",
     options: {
       jp: ["つま", "あめ", "ようじん", "ひゃく"],
       en: ["Wife", "Rain", "Sun", "Hundred"] },
@@ -3935,7 +3935,7 @@ const kanjiCharacters = [
       en: "Wife" }
   },
   {
-    question: 参,
+    question: "参",
     options: {
       jp: ["さん", "あめ", "ようじん", "ひゃく"],
       en: ["Participate", "Rain", "Sun", "Hundred"] },
@@ -3944,7 +3944,7 @@ const kanjiCharacters = [
       en: "Participate" }
   },
   {
-    question: 枝,
+    question: "枝",
     options: {
       jp: ["えだ", "あめ", "ようじん", "ひゃく"],
       en: ["Branch", "Rain", "Sun", "Hundred"] },
@@ -3954,7 +3954,7 @@ const kanjiCharacters = [
   },
   // 刷	効	幸	固	季	岸	岩	泣	協	居	苦	具	果
   {
-    question: 刷,
+    question: "刷",
     options: {
       jp: ["す", "あめ", "ようじん", "ひゃく"],
       en: ["Print", "Rain", "Sun", "Hundred"] },
@@ -3963,7 +3963,7 @@ const kanjiCharacters = [
       en: "Print" }
   },
   {
-    question: 効,
+    question: "効",
     options: {
       jp: ["こう", "あめ", "ようじん", "ひゃく"],
       en: ["Effect", "Rain", "Sun", "Hundred"] },
@@ -3972,7 +3972,7 @@ const kanjiCharacters = [
       en: "Effect" }
   },
   {
-    question: 幸,
+    question: "幸",
     options: {
       jp: ["さいわい", "あめ", "ようじん", "ひゃく"],
       en: ["Happiness", "Rain", "Sun", "Hundred"] },
@@ -3981,7 +3981,7 @@ const kanjiCharacters = [
       en: "Happiness" }
   },
   {
-    question: 固,
+    question: "固",
     options: {
       jp: ["かたい", "あめ", "ようじん", "ひゃく"],
       en: ["Hard", "Rain", "Sun", "Hundred"] },
@@ -3990,7 +3990,7 @@ const kanjiCharacters = [
       en: "Hard" }
   },
   {
-    question: 季,
+    question: "季",
     options: {
       jp: ["き", "あめ", "ようじん", "ひゃく"],
       en: ["Season", "Rain", "Sun", "Hundred"] },
@@ -3999,7 +3999,7 @@ const kanjiCharacters = [
       en: "Season" }
   },
   {
-    question: 岸,
+    question: "岸",
     options: {
       jp: ["きし", "あめ", "ようじん", "ひゃく"],
       en: ["Coast", "Rain", "Sun", "Hundred"] },
@@ -4008,7 +4008,7 @@ const kanjiCharacters = [
       en: "Coast" }
   },
   {
-    question: 岩,
+    question: "岩",
     options: {
       jp: ["いわ", "あめ", "ようじん", "ひゃく"],
       en: ["Rock", "Rain", "Sun", "Hundred"] },
@@ -4017,7 +4017,7 @@ const kanjiCharacters = [
       en: "Rock" }
   },
   {
-    question: 泣,
+    question: "泣",
     options: {
       jp: ["なく", "あめ", "ようじん", "ひゃく"],
       en: ["Cry", "Rain", "Sun", "Hundred"] },
@@ -4026,7 +4026,7 @@ const kanjiCharacters = [
       en: "Cry" }
   },
   {
-    question: 協,
+    question: "協",
     options: {
       jp: ["きょう", "あめ", "ようじん", "ひゃく"],
       en: ["Cooperation", "Rain", "Sun", "Hundred"] },
@@ -4035,7 +4035,7 @@ const kanjiCharacters = [
       en: "Cooperation" }
   },
   {
-    question: 居,
+    question: "居",
     options: {
       jp: ["い", "あめ", "ようじん", "ひゃく"],
       en: ["Reside", "Rain", "Sun", "Hundred"] },
@@ -4044,7 +4044,7 @@ const kanjiCharacters = [
       en: "Reside" }
   },
   {
-    question: 苦,
+    question: "苦",
     options: {
       jp: ["くるしい", "あめ", "ようじん", "ひゃく"],
       en: ["Suffering", "Rain", "Sun", "Hundred"] },
@@ -4053,7 +4053,7 @@ const kanjiCharacters = [
       en: "Suffering" }
   },
   {
-    question: 具,
+    question: "具",
     options: {
       jp: ["ぐ", "あめ", "ようじん", "ひゃく"],
       en: ["Tool", "Rain", "Sun", "Hundred"] },
@@ -4062,7 +4062,7 @@ const kanjiCharacters = [
       en: "Tool" }
   },
   {
-    question: 果,
+    question: "果",
     options: {
       jp: ["はたす", "あめ", "ようじん", "ひゃく"],
       en: ["Fruit", "Rain", "Sun", "Hundred"] },
@@ -4072,7 +4072,7 @@ const kanjiCharacters = [
   },
   // 河	官	委	易	育	泳	直	定	底	的	性	昔	制
   {
-    question: 河,
+    question: "河",
     options: {
       jp: ["かわ", "あめ", "ようじん", "ひゃく"],
       en: ["River", "Rain", "Sun", "Hundred"] },
@@ -4081,7 +4081,7 @@ const kanjiCharacters = [
       en: "River" }
   },
   {
-    question: 官,
+    question: "官",
     options: {
       jp: ["かん", "あめ", "ようじん", "ひゃく"],
       en: ["Official", "Rain", "Sun", "Hundred"] },
@@ -4090,7 +4090,7 @@ const kanjiCharacters = [
       en: "Official" }
   },
   {
-    question: 委,
+    question: "委",
     options: {
       jp: ["ゆだねる", "あめ", "ようじん", "ひゃく"],
       en: ["Commit", "Rain", "Sun", "Hundred"] },
@@ -4099,7 +4099,7 @@ const kanjiCharacters = [
       en: "Commit" }
   },
   {
-    question: 易,
+    question: "易",
     options: {
       jp: ["やさしい", "あめ", "ようじん", "ひゃく"],
       en: ["Easy", "Rain", "Sun", "Hundred"] },
@@ -4108,7 +4108,7 @@ const kanjiCharacters = [
       en: "Easy" }
   },
   {
-    question: 育,
+    question: "育",
     options: {
       jp: ["そだつ", "あめ", "ようじん", "ひゃく"],
       en: ["Raise", "Rain", "Sun", "Hundred"] },
@@ -4117,7 +4117,7 @@ const kanjiCharacters = [
       en: "Raise" }
   },
   {
-    question: 泳,
+    question: "泳",
     options: {
       jp: ["およぐ", "あめ", "ようじん", "ひゃく"],
       en: ["Swim", "Rain", "Sun", "Hundred"] },
@@ -4126,7 +4126,7 @@ const kanjiCharacters = [
       en: "Swim" }
   },
   {
-    question: 直,
+    question: "直",
     options: {
       jp: ["ただちに", "あめ", "ようじん", "ひゃく"],
       en: ["Straight", "Rain", "Sun", "Hundred"] },
@@ -4135,7 +4135,7 @@ const kanjiCharacters = [
       en: "Straight" }
   },
   {
-    question: 定,
+    question: "定",
     options: {
       jp: ["さだめる", "あめ", "ようじん", "ひゃく"],
       en: ["Decide", "Rain", "Sun", "Hundred"] },
@@ -4144,7 +4144,7 @@ const kanjiCharacters = [
       en: "Decide" }
   },
   {
-    question: 底,
+    question: "底",
     options: {
       jp: ["そこ", "あめ", "ようじん", "ひゃく"],
       en: ["Bottom", "Rain", "Sun", "Hundred"] },
@@ -4153,7 +4153,7 @@ const kanjiCharacters = [
       en: "Bottom" }
   },
   {
-    question: 的,
+    question: "的",
     options: {
       jp: ["まと", "あめ", "ようじん", "ひゃく"],
       en: ["Target", "Rain", "Sun", "Hundred"] },
@@ -4162,7 +4162,7 @@ const kanjiCharacters = [
       en: "Target" }
   },
   {
-    question: 性,
+    question: "性",
     options: {
       jp: ["せい", "あめ", "ようじん", "ひゃく"],
       en: ["Nature", "Rain", "Sun", "Hundred"] },
@@ -4171,7 +4171,7 @@ const kanjiCharacters = [
       en: "Nature" }
   },
   {
-    question: 昔,
+    question: "昔",
     options: {
       jp: ["むかし", "あめ", "ようじん", "ひゃく"],
       en: ["Past", "Rain", "Sun", "Hundred"] },
@@ -4180,7 +4180,7 @@ const kanjiCharacters = [
       en: "Past" }
   },
   {
-    question: 制,
+    question: "制",
     options: {
       jp: ["せい", "あめ", "ようじん", "ひゃく"],
       en: ["Control", "Rain", "Sun", "Hundred"] },
@@ -4190,7 +4190,7 @@ const kanjiCharacters = [
   },
   // 卒	非	波	板	版	念	武	表	命	府	放	法	油
   {
-    question: 卒,
+    question: "卒",
     options: {
       jp: ["そつ", "あめ", "ようじん", "ひゃく"],
       en: ["Graduate", "Rain", "Sun", "Hundred"] },
@@ -4199,7 +4199,7 @@ const kanjiCharacters = [
       en: "Graduate" }
   },
   {
-    question: 非,
+    question: "非",
     options: {
       jp: ["ひ", "あめ", "ようじん", "ひゃく"],
       en: ["Non-", "Rain", "Sun", "Hundred"] },
@@ -4208,7 +4208,7 @@ const kanjiCharacters = [
       en: "Non-" }
   },
   {
-    question: 波,
+    question: "波",
     options: {
       jp: ["なみ", "あめ", "ようじん", "ひゃく"],
       en: ["Wave", "Rain", "Sun", "Hundred"] },
@@ -4217,7 +4217,7 @@ const kanjiCharacters = [
       en: "Wave" }
   },
   {
-    question: 板,
+    question: "板",
     options: {
       jp: ["いた", "あめ", "ようじん", "ひゃく"],
       en: ["Board", "Rain", "Sun", "Hundred"] },
@@ -4226,7 +4226,7 @@ const kanjiCharacters = [
       en: "Board" }
   },
   {
-    question: 版,
+    question: "版",
     options: {
       jp: ["はん", "あめ", "ようじん", "ひゃく"],
       en: ["Edition", "Rain", "Sun", "Hundred"] },
@@ -4235,7 +4235,7 @@ const kanjiCharacters = [
       en: "Edition" }
   },
   {
-    question: 念,
+    question: "念",
     options: {
       jp: ["ねん", "あめ", "ようじん", "ひゃく"],
       en: ["Thought", "Rain", "Sun", "Hundred"] },
@@ -4244,7 +4244,7 @@ const kanjiCharacters = [
       en: "Thought" }
   },
   {
-    question: 武,
+    question: "武",
     options: {
       jp: ["たけし", "あめ", "ようじん", "ひゃく"],
       en: ["Warrior", "Rain", "Sun", "Hundred"] },
@@ -4253,7 +4253,7 @@ const kanjiCharacters = [
       en: "Warrior" }
   },
   {
-    question: 表,
+    question: "表",
     options: {
       jp: ["おもて", "あめ", "ようじん", "ひゃく"],
       en: ["Surface", "Rain", "Sun", "Hundred"] },
@@ -4262,7 +4262,7 @@ const kanjiCharacters = [
       en: "Surface" }
   },
   {
-    question: 命,
+    question: "命",
     options: {
       jp: ["いのち", "あめ", "ようじん", "ひゃく"],
       en: ["Life", "Rain", "Sun", "Hundred"] },
@@ -4271,7 +4271,7 @@ const kanjiCharacters = [
       en: "Life" }
   },
   {
-    question: 府,
+    question: "府",
     options: {
       jp: ["ふ", "あめ", "ようじん", "ひゃく"],
       en: ["Prefecture", "Rain", "Sun", "Hundred"] },
@@ -4280,7 +4280,7 @@ const kanjiCharacters = [
       en: "Prefecture" }
   },
   {
-    question: 放,
+    question: "放",
     options: {
       jp: ["はなす", "あめ", "ようじん", "ひゃく"],
       en: ["Release", "Rain", "Sun", "Hundred"] },
@@ -4289,7 +4289,7 @@ const kanjiCharacters = [
       en: "Release" }
   },
   {
-    question: 法,
+    question: "法",
     options: {
       jp: ["ほう", "あめ", "ようじん", "ひゃく"],
       en: ["Law", "Rain", "Sun", "Hundred"] },
@@ -4298,7 +4298,7 @@ const kanjiCharacters = [
       en: "Law" }
   },
   {
-    question: 油,
+    question: "油",
     options: {
       jp: ["あぶら", "あめ", "ようじん", "ひゃく"],
       en: ["Oil", "Rain", "Sun", "Hundred"] },
