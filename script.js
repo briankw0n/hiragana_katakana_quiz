@@ -229,6 +229,7 @@ function playAgain() {
   options.forEach((option) => {
     option.style.display = "block";
   });
+  switchButton.style.display = "flex";
   counter.style.display = "block";
   loadQuestion();
 }
