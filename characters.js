@@ -2773,2251 +2773,2251 @@ const kanjiCharacters = [
   },
   // N3
   // 丸	久	才	支	戸	欠	王	化	内	反	比	夫	仏
-  {
-    question: "丸",
-    options: {
-      jp: ["まる", "さん", "ほし", "たいよう"],
-      en: ["Circle", "Three", "Star", "Sun"] },
-    answer: {
-      jp: "まる",
-      en: "Circle" }
-  },
-  {
-    question: "久",
-    options: {
-      jp: ["ひさしい", "さき", "ちかい", "とおい"],
-      en: ["Long Time", "Before", "Near", "Distant"] },
-    answer: {
-      jp: "ひさしい",
-      en: "Long Time" }
-  },
-  {
-    question: "才",
-    options: {
-      jp: ["さい", "さん", "ほし", "たいよう"],
-      en: ["Talent", "Three", "Star", "Sun"] },
-    answer: {
-      jp: "さい",
-      en: "Talent" }
-  },
-  {
-    question: "支",
-    options: {
-      jp: ["ささえる", "さく", "ほし", "たいよう"],
-      en: ["Support", "Blossom", "Star", "Sun"] },
-    answer: {
-      jp: "ささえる",
-      en: "Support" }
-  },
-  {
-    question: "戸",
-    options: {
-      jp: ["と", "いえ", "はこ", "うえ"],
-      en: ["Door", "House", "Box", "Up"] },
-    answer: {
-      jp: "と",
-      en: "Door" }
-  },
-  {
-    question: "欠",
-    options: {
-      jp: ["かける", "ぬぐ", "ほし", "たいよう"],
-      en: ["Lack", "Take Off", "Star", "Sun"] },
-    answer: {
-      jp: "かける",
-      en: "Lack" }
-  },
-  {
-    question: "王",
-    options: {
-      jp: ["おう", "さん", "ほし", "たいよう"],
-      en: ["King", "Three", "Star", "Sun"] },
-    answer: {
-      jp: "おう",
-      en: "King" }
-  },
-  {
-    question: "化",
-    options: {
-      jp: ["か", "さん", "ほし", "たいよう"],
-      en: ["Change", "Three", "Star", "Sun"] },
-    answer: {
-      jp: "か",
-      en: "Change" }
-  },
-  {
-    question: "内",
-    options: {
-      jp: ["うち", "いえ", "はこ", "うえ"],
-      en: ["Inside", "House", "Box", "Up"] },
-    answer: {
-      jp: "うち",
-      en: "Inside" }
-  },
-  {
-    question: "反",
-    options: {
-      jp: ["そる", "さん", "ほし", "たいよう"],
-      en: ["Opposite", "Three", "Star", "Sun"] },
-    answer: {
-      jp: "そる",
-      en: "Opposite" }
-  },
-  {
-    question: "比",
-    options: {
-      jp: ["くらべる", "さく", "ほし", "たいよう"],
-      en: ["Compare", "Blossom", "Star", "Sun"] },
-    answer: {
-      jp: "くらべる",
-      en: "Compare" }
-  },
-  {
-    question: "夫",
-    options: {
-      jp: ["おっと", "さく", "ほし", "たいよう"],
-      en: ["Husband", "Blossom", "Star", "Sun"] },
-    answer: {
-      jp: "おっと",
-      en: "Husband" }
-  },
-  {
-    question: "仏",
-    options: {
-      jp: ["ほとけ", "さく", "ほし", "たいよう"],
-      en: ["Buddha", "Blossom", "Star", "Sun"] },
-    answer: {
-      jp: "ほとけ",
-      en: "Buddha" }
-  },
-  // 毛	予	由	未	布	包	末	平	辺	氷	付	皮	犯
-  {
-    question: "毛",
-    options: {
-      jp: ["け", "いぬ", "ねこ", "うし"],
-      en: ["Fur", "Dog", "Cat", "Cow"] },
-    answer: {
-      jp: "け",
-      en: "Fur" }
-  },
-  {
-    question: "予",
-    options: {
-      jp: ["よ", "いる", "みる", "くる"],
-      en: ["Beforehand", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "よ",
-      en: "Beforehand" }
-  },
-  {
-    question: "由",
-    options: {
-      jp: ["ゆ", "いる", "みる", "くる"],
-      en: ["Reason", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "ゆ",
-      en: "Reason" }
-  },
-  {
-    question: "未",
-    options: {
-      jp: ["み", "いる", "みる", "くる"],
-      en: ["Not Yet", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "み",
-      en: "Not Yet" }
-  },
-  {
-    question: "布",
-    options: {
-      jp: ["ぬの", "いる", "みる", "くる"],
-      en: ["Cloth", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "ぬの",
-      en: "Cloth" }
-  },
-  {
-    question: "包",
-    options: {
-      jp: ["つつむ", "いる", "みる", "くる"],
-      en: ["Wrap", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "つつむ",
-      en: "Wrap" }
-  },
-  {
-    question: "末",
-    options: {
-      jp: ["すえ", "うえ", "した", "まえ"],
-      en: ["End", "Up", "Down", "Front"] },
-    answer: {
-      jp: "すえ",
-      en: "End" }
-  },
-  {
-    question: "平",
-    options: {
-      jp: ["たいら", "うえ", "した", "まえ"],
-      en: ["Flat", "Up", "Down", "Front"] },
-    answer: {
-      jp: "たいら",
-      en: "Flat" }
-  },
-  {
-    question: "辺",
-    options: {
-      jp: ["へん", "うえ", "した", "まえ"],
-      en: ["Side", "Up", "Down", "Front"] },
-    answer: {
-      jp: "へん",
-      en: "Side" }
-  },
-  {
-    question: "氷",
-    options: {
-      jp: ["こおり", "ゆき", "あめ", "かぜ"],
-      en: ["Ice", "Snow", "Rain", "Wind"] },
-    answer: {
-      jp: "こおり",
-      en: "Ice" }
-  },
-  {
-    question: "付",
-    options: {
-      jp: ["つける", "とる", "ある", "くる"],
-      en: ["Attach", "Remove", "Exist", "Come"] },
-    answer: {
-      jp: "つける",
-      en: "Attach" }
-  },
-  {
-    question: "皮",
-    options: {
-      jp: ["かわ", "とる", "ある", "くる"],
-      en: ["Skin", "Remove", "Exist", "Come"] },
-    answer: {
-      jp: "かわ",
-      en: "Skin" }
-  },
-  {
-    question: "犯",
-    options: {
-      jp: ["おかす", "とる", "ある", "くる"],
-      en: ["Commit a Crime", "Remove", "Exist", "Come"] },
-    answer: {
-      jp: "おかす",
-      en: "Commit a Crime" }
-  },
-  // 必	石	他	打	加	可	央	刊	玉	旧	号	皿	札
-  {
-    question: "必",
-    options: {
-      jp: ["かならず", "いる", "みる", "くる"],
-      en: ["Necessary", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "かならず",
-      en: "Necessary" }
-  },
-  {
-    question: "石",
-    options: {
-      jp: ["いし", "いる", "みる", "くる"],
-      en: ["Stone", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "いし",
-      en: "Stone" }
-  },
-  {
-    question: "他",
-    options: {
-      jp: ["ほか", "いる", "みる", "くる"],
-      en: ["Other", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "ほか",
-      en: "Other" }
-  },
-  {
-    question: "打",
-    options: {
-      jp: ["うつ", "いる", "みる", "くる"],
-      en: ["Hit", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "うつ",
-      en: "Hit" }
-  },
-  {
-    question: "加",
-    options: {
-      jp: ["くわえる", "とる", "ある", "くる"],
-      en: ["Add", "Remove", "Exist", "Come"] },
-    answer: {
-      jp: "くわえる",
-      en: "Add" }
-  },
-  {
-    question: "可",
-    options: {
-      jp: ["か", "とる", "ある", "くる"],
-      en: ["Possible", "Remove", "Exist", "Come"] },
-    answer: {
-      jp: "か",
-      en: "Possible" }
-  },
-  {
-    question: "央",
-    options: {
-      jp: ["おう", "あさ", "ひる", "ゆうがた"],
-      en: ["Center", "Morning", "Noon", "Evening"] },
-    answer: {
-      jp: "おう",
-      en: "Center" }
-  },
-  {
-    question: "刊",
-    options: {
-      jp: ["かん", "あさ", "ひる", "ゆうがた"],
-      en: ["Publication", "Morning", "Noon", "Evening"] },
-    answer: {
-      jp: "かん",
-      en: "Publication" }
-  },
-  {
-    question: "玉",
-    options: {
-      jp: ["たま", "ほし", "あめ", "かぜ"],
-      en: ["Ball", "Star", "Rain", "Wind"] },
-    answer: {
-      jp: "たま",
-      en: "Ball" }
-  },
-  {
-    question: "旧",
-    options: {
-      jp: ["きゅう", "ほし", "あめ", "ゆうがた"],
-      en: ["Old", "Star", "Rain", "Evening"] },
-    answer: {
-      jp: "きゅう",
-      en: "Old" }
-  },
-  {
-    question: "号",
-    options: {
-      jp: ["ごう", "いち", "に", "さん"],
-      en: ["Number", "One", "Two", "Three"] },
-    answer: {
-      jp: "ごう",
-      en: "Number" }
-  },
-  {
-    question: "皿",
-    options: {
-      jp: ["さら", "ほし", "あめ", "かぜ"],
-      en: ["Plate", "Star", "Rain", "Wind"] },
-    answer: {
-      jp: "さら",
-      en: "Plate" }
-  },
-  {
-    question: "札",
-    options: {
-      jp: ["さつ", "ほし", "あめ", "かぜ"],
-      en: ["Bill", "Star", "Rain", "Wind"] },
-    answer: {
-      jp: "さつ",
-      en: "Bill" }
-  },
-  // 史	失	示	申	礼	令	列	老	式	州	寺	次	守
-  {
-    question: "史",
-    options: {
-      jp: ["し", "いる", "みる", "くる"],
-      en: ["History", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "し",
-      en: "History" }
-  },
-  {
-    question: "失",
-    options: {
-      jp: ["うしなう", "いる", "みる", "くる"],
-      en: ["Lose", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "うしなう",
-      en: "Lose" }
-  },
-  {
-    question: "示",
-    options: {
-      jp: ["しめす", "いる", "みる", "くる"],
-      en: ["Show", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "しめす",
-      en: "Show" }
-  },
-  {
-    question: "申",
-    options: {
-      jp: ["もうす", "いる", "みる", "くる"],
-      en: ["State", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "もうす",
-      en: "State" }
-  },
-  {
-    question: "礼",
-    options: {
-      jp: ["れい", "いる", "みる", "くる"],
-      en: ["Thanks", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "れい",
-      en: "Thanks" }
-  },
-  {
-    question: "令",
-    options: {
-      jp: ["れい", "いる", "みる", "くる"],
-      en: ["Order", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "れい",
-      en: "Order" }
-  },
-  {
-    question: "列",
-    options: {
-      jp: ["れつ", "いる", "みる", "くる"],
-      en: ["Line", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "れつ",
-      en: "Line" }
-  },
-  {
-    question: "老",
-    options: {
-      jp: ["おい", "いる", "みる", "くる"],
-      en: ["Old", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "おい",
-      en: "Old" }
-  },
-  {
-    question: "式",
-    options: {
-      jp: ["しき", "いる", "みる", "くる"],
-      en: ["Style", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "しき",
-      en: "Style" }
-  },
-  {
-    question: "州",
-    options: {
-      jp: ["しゅう", "いる", "みる", "くる"],
-      en: ["State", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "しゅう",
-      en: "State" }
-  },
-  {
-    question: "寺",
-    options: {
-      jp: ["てら", "いる", "みる", "くる"],
-      en: ["Temple", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "てら",
-      en: "Temple" }
-  },
-  {
-    question: "次",
-    options: {
-      jp: ["つぎ", "いる", "みる", "くる"],
-      en: ["Next", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "つぎ",
-      en: "Next" }
-  },
-  {
-    question: "守",
-    options: {
-      jp: ["まもる", "いる", "みる", "くる"],
-      en: ["Protect", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "まもる",
-      en: "Protect" }
-  },
-  // 糸	在	再	向	交	血	件	共	曲	各	印	因	羽
-  {
-    question: "糸",
-    options: {
-      jp: ["いと", "いる", "みる", "くる"],
-      en: ["Thread", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "いと",
-      en: "Thread" }
-  },
-  {
-    question: "在",
-    options: {
-      jp: ["ざい", "いる", "みる", "くる"],
-      en: ["Exist", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "ざい",
-      en: "Exist" }
-  },
-  {
-    question: "再",
-    options: {
-      jp: ["ふたたび", "いる", "みる", "くる"],
-      en: ["Again", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "ふたたび",
-      en: "Again" }
-  },
-  {
-    question: "向",
-    options: {
-      jp: ["むく", "いる", "みる", "くる"],
-      en: ["Face", "To Be", "To See", "To Come"] },
-    answer: {
-      jp: "むく",
-      en: "Face" }
-  },
-  {
-    question: "交",
-    options: {
-      jp: ["まじわる", "たいよう", "ほし", "あめ"],
-      en: ["Interact", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "まじわる",
-      en: "Interact" }
-  },
-  {
-    question: "血",
-    options: {
-      jp: ["ち", "たいよう", "ほし", "あめ"],
-      en: ["Blood", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "ち",
-      en: "Blood" }
-  },
-  {
-    question: "件",
-    options: {
-      jp: ["けん", "たいよう", "ほし", "あめ"],
-      en: ["Case", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "けん",
-      en: "Case" }
-  },
-  {
-    question: "共",
-    options: {
-      jp: ["とも", "たいよう", "ほし", "あめ"],
-      en: ["Together", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "とも",
-      en: "Together" }
-  },
-  {
-    question: "曲",
-    options: {
-      jp: ["まがる", "たいよう", "ほし", "あめ"],
-      en: ["Curve", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "まがる",
-      en: "Curve" }
-  },
-  {
-    question: "各",
-    options: {
-      jp: ["おのおの", "たいよう", "ほし", "あめ"],
-      en: ["Each", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "おのおの",
-      en: "Each" }
-  },
-  {
-    question: "印",
-    options: {
-      jp: ["しるし", "たいよう", "ほし", "あめ"],
-      en: ["Mark", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "しるし",
-      en: "Mark" }
-  },
-  {
-    question: "因",
-    options: {
-      jp: ["よる", "たいよう", "ほし", "あめ"],
-      en: ["Cause", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "よる",
-      en: "Cause" }
-  },
-  {
-    question: "羽",
-    options: {
-      jp: ["はね", "たいよう", "ほし", "あめ"],
-      en: ["Feather", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "はね",
-      en: "Feather" }
-  },
-  // 団	竹	仲	虫	兆	伝	当	成	全	争	任	米	両
-  {
-    question: "団",
-    options: {
-      jp: ["まるい", "たいよう", "ほし", "あめ"],
-      en: ["Group", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "まるい",
-      en: "Group" }
-  },
-  {
-    question: "竹",
-    options: {
-      jp: ["たけ", "たいよう", "ほし", "あめ"],
-      en: ["Bamboo", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "たけ",
-      en: "Bamboo" }
-  },
-  {
-    question: "仲",
-    options: {
-      jp: ["なか", "たいよう", "ほし", "あめ"],
-      en: ["Relationship", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "なか",
-      en: "Relationship" }
-  },
-  {
-    question: "虫",
-    options: {
-      jp: ["むし", "たいよう", "ほし", "あめ"],
-      en: ["Insect", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "むし",
-      en: "Insect" }
-  },
-  {
-    question: "兆",
-    options: {
-      jp: ["きざし", "たいよう", "ほし", "あめ"],
-      en: ["Omen", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "きざし",
-      en: "Omen" }
-  },
-  {
-    question: "伝",
-    options: {
-      jp: ["つたえる", "たいよう", "ほし", "あめ"],
-      en: ["Transmit", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "つたえる",
-      en: "Transmit" }
-  },
-  {
-    question: "当",
-    options: {
-      jp: ["あたる", "たいよう", "ほし", "あめ"],
-      en: ["Hit", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "あたる",
-      en: "Hit" }
-  },
-  {
-    question: "成",
-    options: {
-      jp: ["なる", "たいよう", "ほし", "あめ"],
-      en: ["Become", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "なる",
-      en: "Become" }
-  },
-  {
-    question: "全",
-    options: {
-      jp: ["すべて", "たいよう", "ほし", "あめ"],
-      en: ["Whole", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "すべて",
-      en: "Whole" }
-  },
-  {
-    question: "争",
-    options: {
-      jp: ["あらそう", "たいよう", "ほし", "あめ"],
-      en: ["Conflict", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "あらそう",
-      en: "Conflict" }
-  },
-  {
-    question: "任",
-    options: {
-      jp: ["まかせる", "たいよう", "ほし", "あめ"],
-      en: ["Assign", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "まかせる",
-      en: "Assign" }
-  },
-  {
-    question: "米",
-    options: {
-      jp: ["こめ", "たいよう", "ほし", "あめ"],
-      en: ["Rice", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "こめ",
-      en: "Rice" }
-  },
-  {
-    question: "両",
-    options: {
-      jp: ["りょう", "たいよう", "ほし", "あめ"],
-      en: ["Both", "Sun", "Star", "Rain"] },
-    answer: {
-      jp: "りょう",
-      en: "Both" }
-  },
-  // 利	余	防	役	返	判	臣	身	折	努	投	対	束
-  {
-    question: "利",
-    options: {
-      jp: ["きく", "あめ", "ようじん", "ひゃく"],
-      en: ["Benefit", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "きく",
-      en: "Benefit" }
-  },
-  {
-    question: "余",
-    options: {
-      jp: ["あまる", "あめ", "ようじん", "ひゃく"],
-      en: ["Surplus", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "あまる",
-      en: "Surplus" }
-  },
-  {
-    question: "防",
-    options: {
-      jp: ["ふせぐ", "あめ", "ようじん", "ひゃく"],
-      en: ["Defend", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ふせぐ",
-      en: "Defend" }
-  },
-  {
-    question: "役",
-    options: {
-      jp: ["やく", "あめ", "ようじん", "ひゃく"],
-      en: ["Role", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "やく",
-      en: "Role" }
-  },
-  {
-    question: "返",
-    options: {
-      jp: ["かえす", "あめ", "ようじん", "ひゃく"],
-      en: ["Return", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "かえす",
-      en: "Return" }
-  },
-  {
-    question: "判",
-    options: {
-      jp: ["わかる", "あめ", "ようじん", "ひゃく"],
-      en: ["Judge", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "わかる",
-      en: "Judge" }
-  },
-  {
-    question: "臣",
-    options: {
-      jp: ["しん", "あめ", "ようじん", "ひゃく"],
-      en: ["Minister", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "しん",
-      en: "Minister" }
-  },
-  {
-    question: "身",
-    options: {
-      jp: ["み", "あめ", "ようじん", "ひゃく"],
-      en: ["Body", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "み",
-      en: "Body" }
-  },
-  {
-    question: "折",
-    options: {
-      jp: ["おる", "あめ", "ようじん", "ひゃく"],
-      en: ["Fold", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "おる",
-      en: "Fold" }
-  },
-  {
-    question: "努",
-    options: {
-      jp: ["つとめる", "あめ", "ようじん", "ひゃく"],
-      en: ["Effort", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "つとめる",
-      en: "Effort" }
-  },
-  {
-    question: "投",
-    options: {
-      jp: ["なげる", "あめ", "ようじん", "ひゃく"],
-      en: ["Throw", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "なげる",
-      en: "Throw" }
-  },
-  {
-    question: "対",
-    options: {
-      jp: ["たい", "あめ", "ようじん", "ひゃく"],
-      en: ["Opposite", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "たい",
-      en: "Opposite" }
-  },
-  {
-    question: "束",
-    options: {
-      jp: ["たば", "あめ", "ようじん", "ひゃく"],
-      en: ["Bundle", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "たば",
-      en: "Bundle" }
-  },
-  // 谷	位	囲	完	角	快	改	技	局	君	均	形	決
-  {
-    question: "谷",
-    options: {
-      jp: ["たに", "あめ", "ようじん", "ひゃく"],
-      en: ["Valley", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "たに",
-      en: "Valley" }
-  },
-  {
-    question: "位",
-    options: {
-      jp: ["くらい", "あめ", "ようじん", "ひゃく"],
-      en: ["Position", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "くらい",
-      en: "Position" }
-  },
-  {
-    question: "囲",
-    options: {
-      jp: ["かこむ", "あめ", "ようじん", "ひゃく"],
-      en: ["Surround", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "かこむ",
-      en: "Surround" }
-  },
-  {
-    question: "完",
-    options: {
-      jp: ["かん", "あめ", "ようじん", "ひゃく"],
-      en: ["Complete", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "かん",
-      en: "Complete" }
-  },
-  {
-    question: "角",
-    options: {
-      jp: ["かど", "あめ", "ようじん", "ひゃく"],
-      en: ["Corner", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "かど",
-      en: "Corner" }
-  },
-  {
-    question: "快",
-    options: {
-      jp: ["こころよい", "あめ", "ようじん", "ひゃく"],
-      en: ["Pleasant", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "こころよい",
-      en: "Pleasant" }
-  },
-  {
-    question: "改",
-    options: {
-      jp: ["あらためる", "あめ", "ようじん", "ひゃく"],
-      en: ["Change", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "あらためる",
-      en: "Change" }
-  },
-  {
-    question: "技",
-    options: {
-      jp: ["わざ", "あめ", "ようじん", "ひゃく"],
-      en: ["Technique", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "わざ",
-      en: "Technique" }
-  },
-  {
-    question: "局",
-    options: {
-      jp: ["きょく", "あめ", "ようじん", "ひゃく"],
-      en: ["Office", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "きょく",
-      en: "Office" }
-  },
-  {
-    question: "君",
-    options: {
-      jp: ["きみ", "あめ", "ようじん", "ひゃく"],
-      en: ["You", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "きみ",
-      en: "You" }
-  },
-  {
-    question: "均",
-    options: {
-      jp: ["ならす", "あめ", "ようじん", "ひゃく"],
-      en: ["Equal", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ならす",
-      en: "Equal" }
-  },
-  {
-    question: "形",
-    options: {
-      jp: ["かたち", "あめ", "ようじん", "ひゃく"],
-      en: ["Shape", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "かたち",
-      en: "Shape" }
-  },
-  {
-    question: "決",
-    options: {
-      jp: ["きめる", "あめ", "ようじん", "ひゃく"],
-      en: ["Decide", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "きめる",
-      en: "Decide" }
-  },
-  // 芸	求	希	告	材	坂	似	児	状	初	助	労	冷
-  {
-    question: "芸",
-    options: {
-      jp: ["げい", "あめ", "ようじん", "ひゃく"],
-      en: ["Art", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "げい",
-      en: "Art" }
-  },
-  {
-    question: "求",
-    options: {
-      jp: ["もとめる", "あめ", "ようじん", "ひゃく"],
-      en: ["Seek", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "もとめる",
-      en: "Seek" }
-  },
-  {
-    question: "希",
-    options: {
-      jp: ["まれ", "あめ", "ようじん", "ひゃく"],
-      en: ["Rare", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "まれ",
-      en: "Rare" }
-  },
-  {
-    question: "告",
-    options: {
-      jp: ["つげる", "あめ", "ようじん", "ひゃく"],
-      en: ["Tell", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "つげる",
-      en: "Tell" }
-  },
-  {
-    question: "材",
-    options: {
-      jp: ["ざい", "あめ", "ようじん", "ひゃく"],
-      en: ["Material", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ざい",
-      en: "Material" }
-  },
-  {
-    question: "坂",
-    options: {
-      jp: ["さか", "あめ", "ようじん", "ひゃく"],
-      en: ["Slope", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "さか",
-      en: "Slope" }
-  },
-  {
-    question: "似",
-    options: {
-      jp: ["にる", "あめ", "ようじん", "ひゃく"],
-      en: ["Similar", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "にる",
-      en: "Similar" }
-  },
-  {
-    question: "児",
-    options: {
-      jp: ["こ", "あめ", "ようじん", "ひゃく"],
-      en: ["Child", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "こ",
-      en: "Child" }
-  },
-  {
-    question: "状",
-    options: {
-      jp: ["じょう", "あめ", "ようじん", "ひゃく"],
-      en: ["Condition", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "じょう",
-      en: "Condition" }
-  },
-  {
-    question: "初",
-    options: {
-      jp: ["はじめ", "あめ", "ようじん", "ひゃく"],
-      en: ["First", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "はじめ",
-      en: "First" }
-  },
-  {
-    question: "助",
-    options: {
-      jp: ["たすける", "あめ", "ようじん", "ひゃく"],
-      en: ["Help", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "たすける",
-      en: "Help" }
-  },
-  {
-    question: "労",
-    options: {
-      jp: ["ろう", "あめ", "ようじん", "ひゃく"],
-      en: ["Labor", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ろう",
-      en: "Labor" }
-  },
-  {
-    question: "冷",
-    options: {
-      jp: ["つめたい", "あめ", "ようじん", "ひゃく"],
-      en: ["Cold", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "つめたい",
-      en: "Cold" }
-  },
-  // 例	和	述	承	招	実	取	治	受	周	妻	参	枝
-  {
-    question: "例",
-    options: {
-      jp: ["れい", "あめ", "ようじん", "ひゃく"],
-      en: ["Example", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "れい",
-      en: "Example" }
-  },
-  {
-    question: "和",
-    options: {
-      jp: ["わ", "あめ", "ようじん", "ひゃく"],
-      en: ["Harmony", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "わ",
-      en: "Harmony" }
-  },
-  {
-    question: "述",
-    options: {
-      jp: ["のべる", "あめ", "ようじん", "ひゃく"],
-      en: ["State", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "のべる",
-      en: "State" }
-  },
-  {
-    question: "承",
-    options: {
-      jp: ["うける", "あめ", "ようじん", "ひゃく"],
-      en: ["Consent", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "うける",
-      en: "Consent" }
-  },
-  {
-    question: "招",
-    options: {
-      jp: ["まねく", "あめ", "ようじん", "ひゃく"],
-      en: ["Invite", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "まねく",
-      en: "Invite" }
-  },
-  {
-    question: "実",
-    options: {
-      jp: ["み", "あめ", "ようじん", "ひゃく"],
-      en: ["Truth", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "み",
-      en: "Truth" }
-  },
-  {
-    question: "取",
-    options: {
-      jp: ["とる", "あめ", "ようじん", "ひゃく"],
-      en: ["Take", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "とる",
-      en: "Take" }
-  },
-  {
-    question: "治",
-    options: {
-      jp: ["おさめる", "あめ", "ようじん", "ひゃく"],
-      en: ["Cure", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "おさめる",
-      en: "Cure" }
-  },
-  {
-    question: "受",
-    options: {
-      jp: ["うける", "あめ", "ようじん", "ひゃく"],
-      en: ["Receive", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "うける",
-      en: "Receive" }
-  },
-  {
-    question: "周",
-    options: {
-      jp: ["まわり", "あめ", "ようじん", "ひゃく"],
-      en: ["Around", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "まわり",
-      en: "Around" }
-  },
-  {
-    question: "妻",
-    options: {
-      jp: ["つま", "あめ", "ようじん", "ひゃく"],
-      en: ["Wife", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "つま",
-      en: "Wife" }
-  },
-  {
-    question: "参",
-    options: {
-      jp: ["さん", "あめ", "ようじん", "ひゃく"],
-      en: ["Participate", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "さん",
-      en: "Participate" }
-  },
-  {
-    question: "枝",
-    options: {
-      jp: ["えだ", "あめ", "ようじん", "ひゃく"],
-      en: ["Branch", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "えだ",
-      en: "Branch" }
-  },
-  // 刷	効	幸	固	季	岸	岩	泣	協	居	苦	具	果
-  {
-    question: "刷",
-    options: {
-      jp: ["す", "あめ", "ようじん", "ひゃく"],
-      en: ["Print", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "す",
-      en: "Print" }
-  },
-  {
-    question: "効",
-    options: {
-      jp: ["こう", "あめ", "ようじん", "ひゃく"],
-      en: ["Effect", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "こう",
-      en: "Effect" }
-  },
-  {
-    question: "幸",
-    options: {
-      jp: ["さいわい", "あめ", "ようじん", "ひゃく"],
-      en: ["Happiness", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "さいわい",
-      en: "Happiness" }
-  },
-  {
-    question: "固",
-    options: {
-      jp: ["かたい", "あめ", "ようじん", "ひゃく"],
-      en: ["Hard", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "かたい",
-      en: "Hard" }
-  },
-  {
-    question: "季",
-    options: {
-      jp: ["き", "あめ", "ようじん", "ひゃく"],
-      en: ["Season", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "き",
-      en: "Season" }
-  },
-  {
-    question: "岸",
-    options: {
-      jp: ["きし", "あめ", "ようじん", "ひゃく"],
-      en: ["Coast", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "きし",
-      en: "Coast" }
-  },
-  {
-    question: "岩",
-    options: {
-      jp: ["いわ", "あめ", "ようじん", "ひゃく"],
-      en: ["Rock", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "いわ",
-      en: "Rock" }
-  },
-  {
-    question: "泣",
-    options: {
-      jp: ["なく", "あめ", "ようじん", "ひゃく"],
-      en: ["Cry", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "なく",
-      en: "Cry" }
-  },
-  {
-    question: "協",
-    options: {
-      jp: ["きょう", "あめ", "ようじん", "ひゃく"],
-      en: ["Cooperation", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "きょう",
-      en: "Cooperation" }
-  },
-  {
-    question: "居",
-    options: {
-      jp: ["い", "あめ", "ようじん", "ひゃく"],
-      en: ["Reside", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "い",
-      en: "Reside" }
-  },
-  {
-    question: "苦",
-    options: {
-      jp: ["くるしい", "あめ", "ようじん", "ひゃく"],
-      en: ["Suffering", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "くるしい",
-      en: "Suffering" }
-  },
-  {
-    question: "具",
-    options: {
-      jp: ["ぐ", "あめ", "ようじん", "ひゃく"],
-      en: ["Tool", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ぐ",
-      en: "Tool" }
-  },
-  {
-    question: "果",
-    options: {
-      jp: ["はたす", "あめ", "ようじん", "ひゃく"],
-      en: ["Fruit", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "はたす",
-      en: "Fruit" }
-  },
-  // 河	官	委	易	育	泳	直	定	底	的	性	昔	制
-  {
-    question: "河",
-    options: {
-      jp: ["かわ", "あめ", "ようじん", "ひゃく"],
-      en: ["River", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "かわ",
-      en: "River" }
-  },
-  {
-    question: "官",
-    options: {
-      jp: ["かん", "あめ", "ようじん", "ひゃく"],
-      en: ["Official", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "かん",
-      en: "Official" }
-  },
-  {
-    question: "委",
-    options: {
-      jp: ["ゆだねる", "あめ", "ようじん", "ひゃく"],
-      en: ["Commit", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ゆだねる",
-      en: "Commit" }
-  },
-  {
-    question: "易",
-    options: {
-      jp: ["やさしい", "あめ", "ようじん", "ひゃく"],
-      en: ["Easy", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "やさしい",
-      en: "Easy" }
-  },
-  {
-    question: "育",
-    options: {
-      jp: ["そだつ", "あめ", "ようじん", "ひゃく"],
-      en: ["Raise", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "そだつ",
-      en: "Raise" }
-  },
-  {
-    question: "泳",
-    options: {
-      jp: ["およぐ", "あめ", "ようじん", "ひゃく"],
-      en: ["Swim", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "およぐ",
-      en: "Swim" }
-  },
-  {
-    question: "直",
-    options: {
-      jp: ["ただちに", "あめ", "ようじん", "ひゃく"],
-      en: ["Straight", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ただちに",
-      en: "Straight" }
-  },
-  {
-    question: "定",
-    options: {
-      jp: ["さだめる", "あめ", "ようじん", "ひゃく"],
-      en: ["Decide", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "さだめる",
-      en: "Decide" }
-  },
-  {
-    question: "底",
-    options: {
-      jp: ["そこ", "あめ", "ようじん", "ひゃく"],
-      en: ["Bottom", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "そこ",
-      en: "Bottom" }
-  },
-  {
-    question: "的",
-    options: {
-      jp: ["まと", "あめ", "ようじん", "ひゃく"],
-      en: ["Target", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "まと",
-      en: "Target" }
-  },
-  {
-    question: "性",
-    options: {
-      jp: ["せい", "あめ", "ようじん", "ひゃく"],
-      en: ["Nature", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "せい",
-      en: "Nature" }
-  },
-  {
-    question: "昔",
-    options: {
-      jp: ["むかし", "あめ", "ようじん", "ひゃく"],
-      en: ["Past", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "むかし",
-      en: "Past" }
-  },
-  {
-    question: "制",
-    options: {
-      jp: ["せい", "あめ", "ようじん", "ひゃく"],
-      en: ["Control", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "せい",
-      en: "Control" }
-  },
-  // 卒	非	波	板	版	念	武	表	命	府	放	法	油
-  {
-    question: "卒",
-    options: {
-      jp: ["そつ", "あめ", "ようじん", "ひゃく"],
-      en: ["Graduate", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "そつ",
-      en: "Graduate" }
-  },
-  {
-    question: "非",
-    options: {
-      jp: ["ひ", "あめ", "ようじん", "ひゃく"],
-      en: ["Non-", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ひ",
-      en: "Non-" }
-  },
-  {
-    question: "波",
-    options: {
-      jp: ["なみ", "あめ", "ようじん", "ひゃく"],
-      en: ["Wave", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "なみ",
-      en: "Wave" }
-  },
-  {
-    question: "板",
-    options: {
-      jp: ["いた", "あめ", "ようじん", "ひゃく"],
-      en: ["Board", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "いた",
-      en: "Board" }
-  },
-  {
-    question: "版",
-    options: {
-      jp: ["はん", "あめ", "ようじん", "ひゃく"],
-      en: ["Edition", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "はん",
-      en: "Edition" }
-  },
-  {
-    question: "念",
-    options: {
-      jp: ["ねん", "あめ", "ようじん", "ひゃく"],
-      en: ["Thought", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ねん",
-      en: "Thought" }
-  },
-  {
-    question: "武",
-    options: {
-      jp: ["たけし", "あめ", "ようじん", "ひゃく"],
-      en: ["Warrior", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "たけし",
-      en: "Warrior" }
-  },
-  {
-    question: "表",
-    options: {
-      jp: ["おもて", "あめ", "ようじん", "ひゃく"],
-      en: ["Surface", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "おもて",
-      en: "Surface" }
-  },
-  {
-    question: "命",
-    options: {
-      jp: ["いのち", "あめ", "ようじん", "ひゃく"],
-      en: ["Life", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "いのち",
-      en: "Life" }
-  },
-  {
-    question: "府",
-    options: {
-      jp: ["ふ", "あめ", "ようじん", "ひゃく"],
-      en: ["Prefecture", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ふ",
-      en: "Prefecture" }
-  },
-  {
-    question: "放",
-    options: {
-      jp: ["はなす", "あめ", "ようじん", "ひゃく"],
-      en: ["Release", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "はなす",
-      en: "Release" }
-  },
-  {
-    question: "法",
-    options: {
-      jp: ["ほう", "あめ", "ようじん", "ひゃく"],
-      en: ["Law", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "ほう",
-      en: "Law" }
-  },
-  {
-    question: "油",
-    options: {
-      jp: ["あぶら", "あめ", "ようじん", "ひゃく"],
-      en: ["Oil", "Rain", "Sun", "Hundred"] },
-    answer: {
-      jp: "あぶら",
-      en: "Oil" }
-  },
-  // 勇	要	負	迷	約	面	変	飛	美	独	則	相	草
-  {
-    question: "勇",
-    options: {
-      jp: ["いさむ", "いる", "いけ", "いのる"],
-      en: ["Brave", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "いさむ",
-      en: "Brave" }
-  },
-  {
-    question: "要",
-    options: {
-      jp: ["おなじ", "いる", "いけ", "いのる"],
-      en: ["Need", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "おなじ",
-      en: "Need" }
-  },
-  {
-    question: "負",
-    options: {
-      jp: ["まける", "いる", "いけ", "いのる"],
-      en: ["Lose", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "まける",
-      en: "Lose" }
-  },
-  {
-    question: "迷",
-    options: {
-      jp: ["まよう", "いる", "いけ", "いのる"],
-      en: ["Lost", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "まよう",
-      en: "Lost" }
-  },
-  {
-    question: "約",
-    options: {
-      jp: ["やく", "いる", "いけ", "いのる"],
-      en: ["Promise", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "やく",
-      en: "Promise" }
-  },
-  {
-    question: "面",
-    options: {
-      jp: ["つら", "いる", "いけ", "いのる"],
-      en: ["Face", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "つら",
-      en: "Face" }
-  },
-  {
-    question: "変",
-    options: {
-      jp: ["かわる", "いる", "いけ", "いのる"],
-      en: ["Change", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "かわる",
-      en: "Change" }
-  },
-  {
-    question: "飛",
-    options: {
-      jp: ["とぶ", "いる", "いけ", "いのる"],
-      en: ["Fly", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "とぶ",
-      en: "Fly" }
-  },
-  {
-    question: "美",
-    options: {
-      jp: ["うつくしい", "いる", "いけ", "いのる"],
-      en: ["Beautiful", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "うつくしい",
-      en: "Beautiful" }
-  },
-  {
-    question: "独",
-    options: {
-      jp: ["ひとり", "いる", "いけ", "いのる"],
-      en: ["Alone", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "ひとり",
-      en: "Alone" }
-  },
-  {
-    question: "則",
-    options: {
-      jp: ["のっとる", "いる", "いけ", "いのる"],
-      en: ["Rule", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "のっとる",
-      en: "Rule" }
-  },
-  {
-    question: "相",
-    options: {
-      jp: ["あい", "いる", "いけ", "いのる"],
-      en: ["Mutual", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "あい",
-      en: "Mutual" }
-  },
-  {
-    question: "草",
-    options: {
-      jp: ["くさ", "いる", "いけ", "いのる"],
-      en: ["Grass", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "くさ",
-      en: "Grass" }
-  },
-  // 祖	信	政	星	点	追	単	炭	退	栄	科	活	胃
-  {
-    question: "祖",
-    options: {
-      jp: ["そ", "いる", "いけ", "いのる"],
-      en: ["Ancestor", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "そ",
-      en: "Ancestor" }
-  },
-  {
-    question: "信",
-    options: {
-      jp: ["しん", "いる", "いけ", "いのる"],
-      en: ["Trust", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "しん",
-      en: "Trust" }
-  },
-  {
-    question: "政",
-    options: {
-      jp: ["まつりごと", "いる", "いけ", "いのる"],
-      en: ["Politics", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "まつりごと",
-      en: "Politics" }
-  },
-  {
-    question: "星",
-    options: {
-      jp: ["ほし", "いる", "いけ", "いのる"],
-      en: ["Star", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "ほし",
-      en: "Star" }
-  },
-  {
-    question: "点",
-    options: {
-      jp: ["てん", "いる", "いけ", "いのる"],
-      en: ["Point", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "てん",
-      en: "Point" }
-  },
-  {
-    question: "追",
-    options: {
-      jp: ["おう", "いる", "いけ", "いのる"],
-      en: ["Chase", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "おう",
-      en: "Chase" }
-  },
-  {
-    question: "単",
-    options: {
-      jp: ["たん", "いる", "いけ", "いのる"],
-      en: ["Single", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "たん",
-      en: "Single" }
-  },
-  {
-    question: "炭",
-    options: {
-      jp: ["すみ", "いる", "いけ", "いのる"],
-      en: ["Charcoal", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "すみ",
-      en: "Charcoal" }
-  },
-  {
-    question: "退",
-    options: {
-      jp: ["しりぞく", "いる", "いけ", "いのる"],
-      en: ["Retreat", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "しりぞく",
-      en: "Retreat" }
-  },
-  {
-    question: "栄",
-    options: {
-      jp: ["さかえる", "いる", "いけ", "いのる"],
-      en: ["Prosper", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "さかえる",
-      en: "Prosper" }
-  },
-  {
-    question: "科",
-    options: {
-      jp: ["か", "いる", "いけ", "いのる"],
-      en: ["Science", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "か",
-      en: "Science" }
-  },
-  {
-    question: "活",
-    options: {
-      jp: ["かつ", "いる", "いけ", "いのる"],
-      en: ["Active", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "かつ",
-      en: "Active" }
-  },
-  {
-    question: "胃",
-    options: {
-      jp: ["い", "いる", "いけ", "いのる"],
-      en: ["Stomach", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "い",
-      en: "Stomach" }
-  },
-  // 級	軍	係	型	客	逆	限	厚	指	昨	祝	神	査
-  {
-    question: "級",
-    options: {
-      jp: ["きゅう", "いる", "いけ", "いのる"],
-      en: ["Grade", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "きゅう",
-      en: "Grade" }
-  },
-  {
-    question: "軍",
-    options: {
-      jp: ["ぐん", "いる", "いけ", "いのる"],
-      en: ["Army", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "ぐん",
-      en: "Army" }
-  },
-  {
-    question: "係",
-    options: {
-      jp: ["かかり", "いる", "いけ", "いのる"],
-      en: ["Responsibility", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "かかり",
-      en: "Responsibility" }
-  },
-  {
-    question: "型",
-    options: {
-      jp: ["かた", "いる", "いけ", "いのる"],
-      en: ["Type", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "かた",
-      en: "Type" }
-  },
-  {
-    question: "客",
-    options: {
-      jp: ["きゃく", "いる", "いけ", "いのる"],
-      en: ["Guest", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "きゃく",
-      en: "Guest" }
-  },
-  {
-    question: "逆",
-    options: {
-      jp: ["さかさま", "いる", "いけ", "いのる"],
-      en: ["Opposite", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "さかさま",
-      en: "Opposite" }
-  },
-  {
-    question: "限",
-    options: {
-      jp: ["かぎる", "いる", "いけ", "いのる"],
-      en: ["Limit", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "かぎる",
-      en: "Limit" }
-  },
-  {
-    question: "厚",
-    options: {
-      jp: ["あつい", "いる", "いけ", "いのる"],
-      en: ["Thick", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "あつい",
-      en: "Thick" }
-  },
-  {
-    question: "指",
-    options: {
-      jp: ["ゆび", "いる", "いけ", "いのる"],
-      en: ["Finger", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "ゆび",
-      en: "Finger" }
-  },
-  {
-    question: "昨",
-    options: {
-      jp: ["さく", "いる", "いけ", "いのる"],
-      en: ["Yesterday", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "さく",
-      en: "Yesterday" }
-  },
-  {
-    question: "祝",
-    options: {
-      jp: ["いわう", "いる", "いけ", "いのる"],
-      en: ["Celebrate", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "いわう",
-      en: "Celebrate" }
-  },
-  {
-    question: "神",
-    options: {
-      jp: ["かみ", "いる", "いけ", "いのる"],
-      en: ["God", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "かみ",
-      en: "God" }
-  },
-  {
-    question: "査",
-    options: {
-      jp: ["さ", "いる", "いけ", "いのる"],
-      en: ["Investigate", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "さ",
-      en: "Investigate" }
-  },
-  // 省	酒	笑	消	師	財	殺	差	残	航	根	個	候
-  {
-    question: "省",
-    options: {
-      jp: ["しょう", "いる", "いけ", "いのる"],
-      en: ["Ministry", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "しょう",
-      en: "Ministry" }
-  },
-  {
-    question: "酒",
-    options: {
-      jp: ["さけ", "いる", "いけ", "いのる"],
-      en: ["Alcohol", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "さけ",
-      en: "Alcohol" }
-  },
-  {
-    question: "笑",
-    options: {
-      jp: ["わらう", "いる", "いけ", "いのる"],
-      en: ["Laugh", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "わらう",
-      en: "Laugh" }
-  },
-  {
-    question: "消",
-    options: {
-      jp: ["きえる", "いる", "いけ", "いのる"],
-      en: ["Disappear", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "きえる",
-      en: "Disappear" }
-  },
-  {
-    question: "師",
-    options: {
-      jp: ["し", "いる", "いけ", "いのる"],
-      en: ["Teacher", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "し",
-      en: "Teacher" }
-  },
-  {
-    question: "財",
-    options: {
-      jp: ["ざい", "いる", "いけ", "いのる"],
-      en: ["Wealth", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "ざい",
-      en: "Wealth" }
-  },
-  {
-    question: "殺",
-    options: {
-      jp: ["ころす", "いる", "いけ", "いのる"],
-      en: ["Kill", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "ころす",
-      en: "Kill" }
-  },
-  {
-    question: "差",
-    options: {
-      jp: ["さす", "いる", "いけ", "いのる"],
-      en: ["Difference", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "さす",
-      en: "Difference" }
-  },
-  {
-    question: "残",
-    options: {
-      jp: ["のこる", "いる", "いけ", "いのる"],
-      en: ["Remain", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "のこる",
-      en: "Remain" }
-  },
-  {
-    question: "航",
-    options: {
-      jp: ["こう", "いる", "いけ", "いのる"],
-      en: ["Navigation", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "こう",
-      en: "Navigation" }
-  },
-  {
-    question: "根",
-    options: {
-      jp: ["ね", "いる", "いけ", "いのる"],
-      en: ["Root", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "ね",
-      en: "Root" }
-  },
-  {
-    question: "個",
-    options: {
-      jp: ["こ", "いる", "いけ", "いのる"],
-      en: ["Individual", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "こ",
-      en: "Individual" }
-  },
-  {
-    question: "候",
-    options: {
-      jp: ["そうろう", "いる", "いけ", "いのる"],
-      en: ["Climate", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "そうろう",
-      en: "Climate" }
-  },
-  // 庫	記	訓	害	格	荷	帯	島	庭	徒	席	息	造
-  {
-    question: "庫",
-    options: {
-      jp: ["くら", "いる", "いけ", "いのる"],
-      en: ["Warehouse", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "くら",
-      en: "Warehouse" }
-  },
-  {
-    question: "記",
-    options: {
-      jp: ["き", "いる", "いけ", "いのる"],
-      en: ["Record", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "き",
-      en: "Record" }
-  },
-  {
-    question: "訓",
-    options: {
-      jp: ["くん", "いる", "いけ", "いのる"],
-      en: ["Instruction", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "くん",
-      en: "Instruction" }
-  },
-  {
-    question: "害",
-    options: {
-      jp: ["がい", "いる", "いけ", "いのる"],
-      en: ["Harm", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "がい",
-      en: "Harm" }
-  },
-  {
-    question: "格",
-    options: {
-      jp: ["かく", "いる", "いけ", "いのる"],
-      en: ["Rank", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "かく",
-      en: "Rank" }
-  },
-  {
-    question: "荷",
-    options: {
-      jp: ["に", "いる", "いけ", "いのる"],
-      en: ["Cargo", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "に",
-      en: "Cargo" }
-  },
-  {
-    question: "帯",
-    options: {
-      jp: ["おびる", "いる", "いけ", "いのる"],
-      en: ["Belt", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "おびる",
-      en: "Belt" }
-  },
-  {
-    question: "島",
-    options: {
-      jp: ["しま", "いる", "いけ", "いのる"],
-      en: ["Island", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "しま",
-      en: "Island" }
-  },
-  {
-    question: "庭",
-    options: {
-      jp: ["にわ", "いる", "いけ", "いのる"],
-      en: ["Garden", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "にわ",
-      en: "Garden" }
-  },
-  {
-    question: "徒",
-    options: {
-      jp: ["いたずら", "いる", "いけ", "いのる"],
-      en: ["Follower", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "いたずら",
-      en: "Follower" }
-  },
-  {
-    question: "席",
-    options: {
-      jp: ["せき", "いる", "いけ", "いのる"],
-      en: ["Seat", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "せき",
-      en: "Seat" }
-  },
-  {
-    question: "息",
-    options: {
-      jp: ["いき", "いる", "いけ", "いのる"],
-      en: ["Breath", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "いき",
-      en: "Breath" }
-  },
-  {
-    question: "造",
-    options: {
-      jp: ["つくる", "いる", "いけ", "いのる"],
-      en: ["Create", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "つくる",
-      en: "Create" }
-  },
-  // 孫	速	能	配	倍	破	馬	浴	容	流	留	連	陸
-  {
-    question: "孫",
-    options: {
-      jp: ["まご", "ひとごと", "こども", "いのる"],
-      en: ["Grandchild", "Affair", "Child", "Pray"] },
-    answer: {
-      jp: "まご",
-      en: "Grandchild" }
-  },
-  {
-    question: "速",
-    options: {
-      jp: ["はやい", "すばやい", "速度", "遅い"],
-      en: ["Fast", "Swift", "Speed", "Slow"]
-    },
-    answer: {
-      jp: "はやい",
-      en: "Fast"
-    }
-  },
-  {
-    question: "能",
-    options: {
-      jp: ["能力", "力", "技能", "無力"],
-      en: ["Ability", "Strength", "Skill", "Powerlessness"]
-    },
-    answer: {
-      jp: "能力",
-      en: "Ability"
-    }
-  },
-  {
-    question: "配",
-    options: {
-      jp: ["くばる", "いる", "いけ", "いのる"],
-      en: ["Distribute", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "くばる",
-      en: "Distribute" }
-  },
-  {
-    question: "倍",
-    options: {
-      jp: ["ばい", "いる", "いけ", "いのる"],
-      en: ["Double", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "ばい",
-      en: "Double" }
-  },
-  {
-    question: "破",
-    options: {
-      jp: ["やぶる", "いる", "いけ", "いのる"],
-      en: ["Break", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "やぶる",
-      en: "Break" }
-  },
-  {
-    question: "馬",
-    options: {
-      jp: ["うま", "いる", "いけ", "いのる"],
-      en: ["Horse", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "うま",
-      en: "Horse" }
-  },
-  {
-    question: "浴",
-    options: {
-      jp: ["あびる", "いる", "いけ", "いのる"],
-      en: ["Bathe", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "あびる",
-      en: "Bathe" }
-  },
-  {
-    question: "容",
-    options: {
-      jp: ["いれる", "いる", "いけ", "いのる"],
-      en: ["Appearance", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "いれる",
-      en: "Appearance" }
-  },
-  {
-    question: "流",
-    options: {
-      jp: ["ながれる", "いる", "いけ", "いのる"],
-      en: ["Flow", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "ながれる",
-      en: "Flow" }
-  },
-  {
-    question: "留",
-    options: {
-      jp: ["とどめる", "いる", "いけ", "いのる"],
-      en: ["Stay", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "とどめる",
-      en: "Stay" }
-  },
-  {
-    question: "連",
-    options: {
-      jp: ["つれてくる", "いる", "いけ", "いのる"],
-      en: ["Connect", "Need", "Lose", "Lose"] },
-    answer: {
-      jp: "つれてくる",
-      en: "Connect" }
-  },
-  {
-    question: "陸",
-    options: {
-      jp: ["おか", "つく", "うみ", "なり"],
-      en: ["Land", "Arrive", "Sea", "Become"] },
-    answer: {
-      jp: "おか",
-      en: "Land" }
-  },
+  // {
+  //   question: "丸",
+  //   options: {
+  //     jp: ["まる", "さん", "ほし", "たいよう"],
+  //     en: ["Circle", "Three", "Star", "Sun"] },
+  //   answer: {
+  //     jp: "まる",
+  //     en: "Circle" }
+  // },
+  // {
+  //   question: "久",
+  //   options: {
+  //     jp: ["ひさしい", "さき", "ちかい", "とおい"],
+  //     en: ["Long Time", "Before", "Near", "Distant"] },
+  //   answer: {
+  //     jp: "ひさしい",
+  //     en: "Long Time" }
+  // },
+  // {
+  //   question: "才",
+  //   options: {
+  //     jp: ["さい", "さん", "ほし", "たいよう"],
+  //     en: ["Talent", "Three", "Star", "Sun"] },
+  //   answer: {
+  //     jp: "さい",
+  //     en: "Talent" }
+  // },
+  // {
+  //   question: "支",
+  //   options: {
+  //     jp: ["ささえる", "さく", "ほし", "たいよう"],
+  //     en: ["Support", "Blossom", "Star", "Sun"] },
+  //   answer: {
+  //     jp: "ささえる",
+  //     en: "Support" }
+  // },
+  // {
+  //   question: "戸",
+  //   options: {
+  //     jp: ["と", "いえ", "はこ", "うえ"],
+  //     en: ["Door", "House", "Box", "Up"] },
+  //   answer: {
+  //     jp: "と",
+  //     en: "Door" }
+  // },
+  // {
+  //   question: "欠",
+  //   options: {
+  //     jp: ["かける", "ぬぐ", "ほし", "たいよう"],
+  //     en: ["Lack", "Take Off", "Star", "Sun"] },
+  //   answer: {
+  //     jp: "かける",
+  //     en: "Lack" }
+  // },
+  // {
+  //   question: "王",
+  //   options: {
+  //     jp: ["おう", "さん", "ほし", "たいよう"],
+  //     en: ["King", "Three", "Star", "Sun"] },
+  //   answer: {
+  //     jp: "おう",
+  //     en: "King" }
+  // },
+  // {
+  //   question: "化",
+  //   options: {
+  //     jp: ["か", "さん", "ほし", "たいよう"],
+  //     en: ["Change", "Three", "Star", "Sun"] },
+  //   answer: {
+  //     jp: "か",
+  //     en: "Change" }
+  // },
+  // {
+  //   question: "内",
+  //   options: {
+  //     jp: ["うち", "いえ", "はこ", "うえ"],
+  //     en: ["Inside", "House", "Box", "Up"] },
+  //   answer: {
+  //     jp: "うち",
+  //     en: "Inside" }
+  // },
+  // {
+  //   question: "反",
+  //   options: {
+  //     jp: ["そる", "さん", "ほし", "たいよう"],
+  //     en: ["Opposite", "Three", "Star", "Sun"] },
+  //   answer: {
+  //     jp: "そる",
+  //     en: "Opposite" }
+  // },
+  // {
+  //   question: "比",
+  //   options: {
+  //     jp: ["くらべる", "さく", "ほし", "たいよう"],
+  //     en: ["Compare", "Blossom", "Star", "Sun"] },
+  //   answer: {
+  //     jp: "くらべる",
+  //     en: "Compare" }
+  // },
+  // {
+  //   question: "夫",
+  //   options: {
+  //     jp: ["おっと", "さく", "ほし", "たいよう"],
+  //     en: ["Husband", "Blossom", "Star", "Sun"] },
+  //   answer: {
+  //     jp: "おっと",
+  //     en: "Husband" }
+  // },
+  // {
+  //   question: "仏",
+  //   options: {
+  //     jp: ["ほとけ", "さく", "ほし", "たいよう"],
+  //     en: ["Buddha", "Blossom", "Star", "Sun"] },
+  //   answer: {
+  //     jp: "ほとけ",
+  //     en: "Buddha" }
+  // },
+  // // 毛	予	由	未	布	包	末	平	辺	氷	付	皮	犯
+  // {
+  //   question: "毛",
+  //   options: {
+  //     jp: ["け", "いぬ", "ねこ", "うし"],
+  //     en: ["Fur", "Dog", "Cat", "Cow"] },
+  //   answer: {
+  //     jp: "け",
+  //     en: "Fur" }
+  // },
+  // {
+  //   question: "予",
+  //   options: {
+  //     jp: ["よ", "いる", "みる", "くる"],
+  //     en: ["Beforehand", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "よ",
+  //     en: "Beforehand" }
+  // },
+  // {
+  //   question: "由",
+  //   options: {
+  //     jp: ["ゆ", "いる", "みる", "くる"],
+  //     en: ["Reason", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "ゆ",
+  //     en: "Reason" }
+  // },
+  // {
+  //   question: "未",
+  //   options: {
+  //     jp: ["み", "いる", "みる", "くる"],
+  //     en: ["Not Yet", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "み",
+  //     en: "Not Yet" }
+  // },
+  // {
+  //   question: "布",
+  //   options: {
+  //     jp: ["ぬの", "いる", "みる", "くる"],
+  //     en: ["Cloth", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "ぬの",
+  //     en: "Cloth" }
+  // },
+  // {
+  //   question: "包",
+  //   options: {
+  //     jp: ["つつむ", "いる", "みる", "くる"],
+  //     en: ["Wrap", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "つつむ",
+  //     en: "Wrap" }
+  // },
+  // {
+  //   question: "末",
+  //   options: {
+  //     jp: ["すえ", "うえ", "した", "まえ"],
+  //     en: ["End", "Up", "Down", "Front"] },
+  //   answer: {
+  //     jp: "すえ",
+  //     en: "End" }
+  // },
+  // {
+  //   question: "平",
+  //   options: {
+  //     jp: ["たいら", "うえ", "した", "まえ"],
+  //     en: ["Flat", "Up", "Down", "Front"] },
+  //   answer: {
+  //     jp: "たいら",
+  //     en: "Flat" }
+  // },
+  // {
+  //   question: "辺",
+  //   options: {
+  //     jp: ["へん", "うえ", "した", "まえ"],
+  //     en: ["Side", "Up", "Down", "Front"] },
+  //   answer: {
+  //     jp: "へん",
+  //     en: "Side" }
+  // },
+  // {
+  //   question: "氷",
+  //   options: {
+  //     jp: ["こおり", "ゆき", "あめ", "かぜ"],
+  //     en: ["Ice", "Snow", "Rain", "Wind"] },
+  //   answer: {
+  //     jp: "こおり",
+  //     en: "Ice" }
+  // },
+  // {
+  //   question: "付",
+  //   options: {
+  //     jp: ["つける", "とる", "ある", "くる"],
+  //     en: ["Attach", "Remove", "Exist", "Come"] },
+  //   answer: {
+  //     jp: "つける",
+  //     en: "Attach" }
+  // },
+  // {
+  //   question: "皮",
+  //   options: {
+  //     jp: ["かわ", "とる", "ある", "くる"],
+  //     en: ["Skin", "Remove", "Exist", "Come"] },
+  //   answer: {
+  //     jp: "かわ",
+  //     en: "Skin" }
+  // },
+  // {
+  //   question: "犯",
+  //   options: {
+  //     jp: ["おかす", "とる", "ある", "くる"],
+  //     en: ["Commit a Crime", "Remove", "Exist", "Come"] },
+  //   answer: {
+  //     jp: "おかす",
+  //     en: "Commit a Crime" }
+  // },
+  // // 必	石	他	打	加	可	央	刊	玉	旧	号	皿	札
+  // {
+  //   question: "必",
+  //   options: {
+  //     jp: ["かならず", "いる", "みる", "くる"],
+  //     en: ["Necessary", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "かならず",
+  //     en: "Necessary" }
+  // },
+  // {
+  //   question: "石",
+  //   options: {
+  //     jp: ["いし", "いる", "みる", "くる"],
+  //     en: ["Stone", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "いし",
+  //     en: "Stone" }
+  // },
+  // {
+  //   question: "他",
+  //   options: {
+  //     jp: ["ほか", "いる", "みる", "くる"],
+  //     en: ["Other", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "ほか",
+  //     en: "Other" }
+  // },
+  // {
+  //   question: "打",
+  //   options: {
+  //     jp: ["うつ", "いる", "みる", "くる"],
+  //     en: ["Hit", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "うつ",
+  //     en: "Hit" }
+  // },
+  // {
+  //   question: "加",
+  //   options: {
+  //     jp: ["くわえる", "とる", "ある", "くる"],
+  //     en: ["Add", "Remove", "Exist", "Come"] },
+  //   answer: {
+  //     jp: "くわえる",
+  //     en: "Add" }
+  // },
+  // {
+  //   question: "可",
+  //   options: {
+  //     jp: ["か", "とる", "ある", "くる"],
+  //     en: ["Possible", "Remove", "Exist", "Come"] },
+  //   answer: {
+  //     jp: "か",
+  //     en: "Possible" }
+  // },
+  // {
+  //   question: "央",
+  //   options: {
+  //     jp: ["おう", "あさ", "ひる", "ゆうがた"],
+  //     en: ["Center", "Morning", "Noon", "Evening"] },
+  //   answer: {
+  //     jp: "おう",
+  //     en: "Center" }
+  // },
+  // {
+  //   question: "刊",
+  //   options: {
+  //     jp: ["かん", "あさ", "ひる", "ゆうがた"],
+  //     en: ["Publication", "Morning", "Noon", "Evening"] },
+  //   answer: {
+  //     jp: "かん",
+  //     en: "Publication" }
+  // },
+  // {
+  //   question: "玉",
+  //   options: {
+  //     jp: ["たま", "ほし", "あめ", "かぜ"],
+  //     en: ["Ball", "Star", "Rain", "Wind"] },
+  //   answer: {
+  //     jp: "たま",
+  //     en: "Ball" }
+  // },
+  // {
+  //   question: "旧",
+  //   options: {
+  //     jp: ["きゅう", "ほし", "あめ", "ゆうがた"],
+  //     en: ["Old", "Star", "Rain", "Evening"] },
+  //   answer: {
+  //     jp: "きゅう",
+  //     en: "Old" }
+  // },
+  // {
+  //   question: "号",
+  //   options: {
+  //     jp: ["ごう", "いち", "に", "さん"],
+  //     en: ["Number", "One", "Two", "Three"] },
+  //   answer: {
+  //     jp: "ごう",
+  //     en: "Number" }
+  // },
+  // {
+  //   question: "皿",
+  //   options: {
+  //     jp: ["さら", "ほし", "あめ", "かぜ"],
+  //     en: ["Plate", "Star", "Rain", "Wind"] },
+  //   answer: {
+  //     jp: "さら",
+  //     en: "Plate" }
+  // },
+  // {
+  //   question: "札",
+  //   options: {
+  //     jp: ["さつ", "ほし", "あめ", "かぜ"],
+  //     en: ["Bill", "Star", "Rain", "Wind"] },
+  //   answer: {
+  //     jp: "さつ",
+  //     en: "Bill" }
+  // },
+  // // 史	失	示	申	礼	令	列	老	式	州	寺	次	守
+  // {
+  //   question: "史",
+  //   options: {
+  //     jp: ["し", "いる", "みる", "くる"],
+  //     en: ["History", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "し",
+  //     en: "History" }
+  // },
+  // {
+  //   question: "失",
+  //   options: {
+  //     jp: ["うしなう", "いる", "みる", "くる"],
+  //     en: ["Lose", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "うしなう",
+  //     en: "Lose" }
+  // },
+  // {
+  //   question: "示",
+  //   options: {
+  //     jp: ["しめす", "いる", "みる", "くる"],
+  //     en: ["Show", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "しめす",
+  //     en: "Show" }
+  // },
+  // {
+  //   question: "申",
+  //   options: {
+  //     jp: ["もうす", "いる", "みる", "くる"],
+  //     en: ["State", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "もうす",
+  //     en: "State" }
+  // },
+  // {
+  //   question: "礼",
+  //   options: {
+  //     jp: ["れい", "いる", "みる", "くる"],
+  //     en: ["Thanks", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "れい",
+  //     en: "Thanks" }
+  // },
+  // {
+  //   question: "令",
+  //   options: {
+  //     jp: ["れい", "いる", "みる", "くる"],
+  //     en: ["Order", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "れい",
+  //     en: "Order" }
+  // },
+  // {
+  //   question: "列",
+  //   options: {
+  //     jp: ["れつ", "いる", "みる", "くる"],
+  //     en: ["Line", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "れつ",
+  //     en: "Line" }
+  // },
+  // {
+  //   question: "老",
+  //   options: {
+  //     jp: ["おい", "いる", "みる", "くる"],
+  //     en: ["Old", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "おい",
+  //     en: "Old" }
+  // },
+  // {
+  //   question: "式",
+  //   options: {
+  //     jp: ["しき", "いる", "みる", "くる"],
+  //     en: ["Style", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "しき",
+  //     en: "Style" }
+  // },
+  // {
+  //   question: "州",
+  //   options: {
+  //     jp: ["しゅう", "いる", "みる", "くる"],
+  //     en: ["State", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "しゅう",
+  //     en: "State" }
+  // },
+  // {
+  //   question: "寺",
+  //   options: {
+  //     jp: ["てら", "いる", "みる", "くる"],
+  //     en: ["Temple", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "てら",
+  //     en: "Temple" }
+  // },
+  // {
+  //   question: "次",
+  //   options: {
+  //     jp: ["つぎ", "いる", "みる", "くる"],
+  //     en: ["Next", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "つぎ",
+  //     en: "Next" }
+  // },
+  // {
+  //   question: "守",
+  //   options: {
+  //     jp: ["まもる", "いる", "みる", "くる"],
+  //     en: ["Protect", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "まもる",
+  //     en: "Protect" }
+  // },
+  // // 糸	在	再	向	交	血	件	共	曲	各	印	因	羽
+  // {
+  //   question: "糸",
+  //   options: {
+  //     jp: ["いと", "いる", "みる", "くる"],
+  //     en: ["Thread", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "いと",
+  //     en: "Thread" }
+  // },
+  // {
+  //   question: "在",
+  //   options: {
+  //     jp: ["ざい", "いる", "みる", "くる"],
+  //     en: ["Exist", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "ざい",
+  //     en: "Exist" }
+  // },
+  // {
+  //   question: "再",
+  //   options: {
+  //     jp: ["ふたたび", "いる", "みる", "くる"],
+  //     en: ["Again", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "ふたたび",
+  //     en: "Again" }
+  // },
+  // {
+  //   question: "向",
+  //   options: {
+  //     jp: ["むく", "いる", "みる", "くる"],
+  //     en: ["Face", "To Be", "To See", "To Come"] },
+  //   answer: {
+  //     jp: "むく",
+  //     en: "Face" }
+  // },
+  // {
+  //   question: "交",
+  //   options: {
+  //     jp: ["まじわる", "たいよう", "ほし", "あめ"],
+  //     en: ["Interact", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "まじわる",
+  //     en: "Interact" }
+  // },
+  // {
+  //   question: "血",
+  //   options: {
+  //     jp: ["ち", "たいよう", "ほし", "あめ"],
+  //     en: ["Blood", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "ち",
+  //     en: "Blood" }
+  // },
+  // {
+  //   question: "件",
+  //   options: {
+  //     jp: ["けん", "たいよう", "ほし", "あめ"],
+  //     en: ["Case", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "けん",
+  //     en: "Case" }
+  // },
+  // {
+  //   question: "共",
+  //   options: {
+  //     jp: ["とも", "たいよう", "ほし", "あめ"],
+  //     en: ["Together", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "とも",
+  //     en: "Together" }
+  // },
+  // {
+  //   question: "曲",
+  //   options: {
+  //     jp: ["まがる", "たいよう", "ほし", "あめ"],
+  //     en: ["Curve", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "まがる",
+  //     en: "Curve" }
+  // },
+  // {
+  //   question: "各",
+  //   options: {
+  //     jp: ["おのおの", "たいよう", "ほし", "あめ"],
+  //     en: ["Each", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "おのおの",
+  //     en: "Each" }
+  // },
+  // {
+  //   question: "印",
+  //   options: {
+  //     jp: ["しるし", "たいよう", "ほし", "あめ"],
+  //     en: ["Mark", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "しるし",
+  //     en: "Mark" }
+  // },
+  // {
+  //   question: "因",
+  //   options: {
+  //     jp: ["よる", "たいよう", "ほし", "あめ"],
+  //     en: ["Cause", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "よる",
+  //     en: "Cause" }
+  // },
+  // {
+  //   question: "羽",
+  //   options: {
+  //     jp: ["はね", "たいよう", "ほし", "あめ"],
+  //     en: ["Feather", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "はね",
+  //     en: "Feather" }
+  // },
+  // // 団	竹	仲	虫	兆	伝	当	成	全	争	任	米	両
+  // {
+  //   question: "団",
+  //   options: {
+  //     jp: ["まるい", "たいよう", "ほし", "あめ"],
+  //     en: ["Group", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "まるい",
+  //     en: "Group" }
+  // },
+  // {
+  //   question: "竹",
+  //   options: {
+  //     jp: ["たけ", "たいよう", "ほし", "あめ"],
+  //     en: ["Bamboo", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "たけ",
+  //     en: "Bamboo" }
+  // },
+  // {
+  //   question: "仲",
+  //   options: {
+  //     jp: ["なか", "たいよう", "ほし", "あめ"],
+  //     en: ["Relationship", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "なか",
+  //     en: "Relationship" }
+  // },
+  // {
+  //   question: "虫",
+  //   options: {
+  //     jp: ["むし", "たいよう", "ほし", "あめ"],
+  //     en: ["Insect", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "むし",
+  //     en: "Insect" }
+  // },
+  // {
+  //   question: "兆",
+  //   options: {
+  //     jp: ["きざし", "たいよう", "ほし", "あめ"],
+  //     en: ["Omen", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "きざし",
+  //     en: "Omen" }
+  // },
+  // {
+  //   question: "伝",
+  //   options: {
+  //     jp: ["つたえる", "たいよう", "ほし", "あめ"],
+  //     en: ["Transmit", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "つたえる",
+  //     en: "Transmit" }
+  // },
+  // {
+  //   question: "当",
+  //   options: {
+  //     jp: ["あたる", "たいよう", "ほし", "あめ"],
+  //     en: ["Hit", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "あたる",
+  //     en: "Hit" }
+  // },
+  // {
+  //   question: "成",
+  //   options: {
+  //     jp: ["なる", "たいよう", "ほし", "あめ"],
+  //     en: ["Become", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "なる",
+  //     en: "Become" }
+  // },
+  // {
+  //   question: "全",
+  //   options: {
+  //     jp: ["すべて", "たいよう", "ほし", "あめ"],
+  //     en: ["Whole", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "すべて",
+  //     en: "Whole" }
+  // },
+  // {
+  //   question: "争",
+  //   options: {
+  //     jp: ["あらそう", "たいよう", "ほし", "あめ"],
+  //     en: ["Conflict", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "あらそう",
+  //     en: "Conflict" }
+  // },
+  // {
+  //   question: "任",
+  //   options: {
+  //     jp: ["まかせる", "たいよう", "ほし", "あめ"],
+  //     en: ["Assign", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "まかせる",
+  //     en: "Assign" }
+  // },
+  // {
+  //   question: "米",
+  //   options: {
+  //     jp: ["こめ", "たいよう", "ほし", "あめ"],
+  //     en: ["Rice", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "こめ",
+  //     en: "Rice" }
+  // },
+  // {
+  //   question: "両",
+  //   options: {
+  //     jp: ["りょう", "たいよう", "ほし", "あめ"],
+  //     en: ["Both", "Sun", "Star", "Rain"] },
+  //   answer: {
+  //     jp: "りょう",
+  //     en: "Both" }
+  // },
+  // // 利	余	防	役	返	判	臣	身	折	努	投	対	束
+  // {
+  //   question: "利",
+  //   options: {
+  //     jp: ["きく", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Benefit", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "きく",
+  //     en: "Benefit" }
+  // },
+  // {
+  //   question: "余",
+  //   options: {
+  //     jp: ["あまる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Surplus", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "あまる",
+  //     en: "Surplus" }
+  // },
+  // {
+  //   question: "防",
+  //   options: {
+  //     jp: ["ふせぐ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Defend", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ふせぐ",
+  //     en: "Defend" }
+  // },
+  // {
+  //   question: "役",
+  //   options: {
+  //     jp: ["やく", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Role", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "やく",
+  //     en: "Role" }
+  // },
+  // {
+  //   question: "返",
+  //   options: {
+  //     jp: ["かえす", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Return", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "かえす",
+  //     en: "Return" }
+  // },
+  // {
+  //   question: "判",
+  //   options: {
+  //     jp: ["わかる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Judge", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "わかる",
+  //     en: "Judge" }
+  // },
+  // {
+  //   question: "臣",
+  //   options: {
+  //     jp: ["しん", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Minister", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "しん",
+  //     en: "Minister" }
+  // },
+  // {
+  //   question: "身",
+  //   options: {
+  //     jp: ["み", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Body", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "み",
+  //     en: "Body" }
+  // },
+  // {
+  //   question: "折",
+  //   options: {
+  //     jp: ["おる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Fold", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "おる",
+  //     en: "Fold" }
+  // },
+  // {
+  //   question: "努",
+  //   options: {
+  //     jp: ["つとめる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Effort", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "つとめる",
+  //     en: "Effort" }
+  // },
+  // {
+  //   question: "投",
+  //   options: {
+  //     jp: ["なげる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Throw", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "なげる",
+  //     en: "Throw" }
+  // },
+  // {
+  //   question: "対",
+  //   options: {
+  //     jp: ["たい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Opposite", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "たい",
+  //     en: "Opposite" }
+  // },
+  // {
+  //   question: "束",
+  //   options: {
+  //     jp: ["たば", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Bundle", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "たば",
+  //     en: "Bundle" }
+  // },
+  // // 谷	位	囲	完	角	快	改	技	局	君	均	形	決
+  // {
+  //   question: "谷",
+  //   options: {
+  //     jp: ["たに", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Valley", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "たに",
+  //     en: "Valley" }
+  // },
+  // {
+  //   question: "位",
+  //   options: {
+  //     jp: ["くらい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Position", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "くらい",
+  //     en: "Position" }
+  // },
+  // {
+  //   question: "囲",
+  //   options: {
+  //     jp: ["かこむ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Surround", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "かこむ",
+  //     en: "Surround" }
+  // },
+  // {
+  //   question: "完",
+  //   options: {
+  //     jp: ["かん", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Complete", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "かん",
+  //     en: "Complete" }
+  // },
+  // {
+  //   question: "角",
+  //   options: {
+  //     jp: ["かど", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Corner", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "かど",
+  //     en: "Corner" }
+  // },
+  // {
+  //   question: "快",
+  //   options: {
+  //     jp: ["こころよい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Pleasant", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "こころよい",
+  //     en: "Pleasant" }
+  // },
+  // {
+  //   question: "改",
+  //   options: {
+  //     jp: ["あらためる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Change", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "あらためる",
+  //     en: "Change" }
+  // },
+  // {
+  //   question: "技",
+  //   options: {
+  //     jp: ["わざ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Technique", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "わざ",
+  //     en: "Technique" }
+  // },
+  // {
+  //   question: "局",
+  //   options: {
+  //     jp: ["きょく", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Office", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "きょく",
+  //     en: "Office" }
+  // },
+  // {
+  //   question: "君",
+  //   options: {
+  //     jp: ["きみ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["You", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "きみ",
+  //     en: "You" }
+  // },
+  // {
+  //   question: "均",
+  //   options: {
+  //     jp: ["ならす", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Equal", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ならす",
+  //     en: "Equal" }
+  // },
+  // {
+  //   question: "形",
+  //   options: {
+  //     jp: ["かたち", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Shape", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "かたち",
+  //     en: "Shape" }
+  // },
+  // {
+  //   question: "決",
+  //   options: {
+  //     jp: ["きめる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Decide", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "きめる",
+  //     en: "Decide" }
+  // },
+  // // 芸	求	希	告	材	坂	似	児	状	初	助	労	冷
+  // {
+  //   question: "芸",
+  //   options: {
+  //     jp: ["げい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Art", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "げい",
+  //     en: "Art" }
+  // },
+  // {
+  //   question: "求",
+  //   options: {
+  //     jp: ["もとめる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Seek", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "もとめる",
+  //     en: "Seek" }
+  // },
+  // {
+  //   question: "希",
+  //   options: {
+  //     jp: ["まれ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Rare", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "まれ",
+  //     en: "Rare" }
+  // },
+  // {
+  //   question: "告",
+  //   options: {
+  //     jp: ["つげる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Tell", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "つげる",
+  //     en: "Tell" }
+  // },
+  // {
+  //   question: "材",
+  //   options: {
+  //     jp: ["ざい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Material", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ざい",
+  //     en: "Material" }
+  // },
+  // {
+  //   question: "坂",
+  //   options: {
+  //     jp: ["さか", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Slope", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "さか",
+  //     en: "Slope" }
+  // },
+  // {
+  //   question: "似",
+  //   options: {
+  //     jp: ["にる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Similar", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "にる",
+  //     en: "Similar" }
+  // },
+  // {
+  //   question: "児",
+  //   options: {
+  //     jp: ["こ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Child", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "こ",
+  //     en: "Child" }
+  // },
+  // {
+  //   question: "状",
+  //   options: {
+  //     jp: ["じょう", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Condition", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "じょう",
+  //     en: "Condition" }
+  // },
+  // {
+  //   question: "初",
+  //   options: {
+  //     jp: ["はじめ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["First", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "はじめ",
+  //     en: "First" }
+  // },
+  // {
+  //   question: "助",
+  //   options: {
+  //     jp: ["たすける", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Help", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "たすける",
+  //     en: "Help" }
+  // },
+  // {
+  //   question: "労",
+  //   options: {
+  //     jp: ["ろう", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Labor", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ろう",
+  //     en: "Labor" }
+  // },
+  // {
+  //   question: "冷",
+  //   options: {
+  //     jp: ["つめたい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Cold", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "つめたい",
+  //     en: "Cold" }
+  // },
+  // // 例	和	述	承	招	実	取	治	受	周	妻	参	枝
+  // {
+  //   question: "例",
+  //   options: {
+  //     jp: ["れい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Example", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "れい",
+  //     en: "Example" }
+  // },
+  // {
+  //   question: "和",
+  //   options: {
+  //     jp: ["わ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Harmony", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "わ",
+  //     en: "Harmony" }
+  // },
+  // {
+  //   question: "述",
+  //   options: {
+  //     jp: ["のべる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["State", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "のべる",
+  //     en: "State" }
+  // },
+  // {
+  //   question: "承",
+  //   options: {
+  //     jp: ["うける", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Consent", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "うける",
+  //     en: "Consent" }
+  // },
+  // {
+  //   question: "招",
+  //   options: {
+  //     jp: ["まねく", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Invite", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "まねく",
+  //     en: "Invite" }
+  // },
+  // {
+  //   question: "実",
+  //   options: {
+  //     jp: ["み", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Truth", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "み",
+  //     en: "Truth" }
+  // },
+  // {
+  //   question: "取",
+  //   options: {
+  //     jp: ["とる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Take", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "とる",
+  //     en: "Take" }
+  // },
+  // {
+  //   question: "治",
+  //   options: {
+  //     jp: ["おさめる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Cure", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "おさめる",
+  //     en: "Cure" }
+  // },
+  // {
+  //   question: "受",
+  //   options: {
+  //     jp: ["うける", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Receive", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "うける",
+  //     en: "Receive" }
+  // },
+  // {
+  //   question: "周",
+  //   options: {
+  //     jp: ["まわり", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Around", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "まわり",
+  //     en: "Around" }
+  // },
+  // {
+  //   question: "妻",
+  //   options: {
+  //     jp: ["つま", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Wife", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "つま",
+  //     en: "Wife" }
+  // },
+  // {
+  //   question: "参",
+  //   options: {
+  //     jp: ["さん", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Participate", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "さん",
+  //     en: "Participate" }
+  // },
+  // {
+  //   question: "枝",
+  //   options: {
+  //     jp: ["えだ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Branch", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "えだ",
+  //     en: "Branch" }
+  // },
+  // // 刷	効	幸	固	季	岸	岩	泣	協	居	苦	具	果
+  // {
+  //   question: "刷",
+  //   options: {
+  //     jp: ["す", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Print", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "す",
+  //     en: "Print" }
+  // },
+  // {
+  //   question: "効",
+  //   options: {
+  //     jp: ["こう", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Effect", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "こう",
+  //     en: "Effect" }
+  // },
+  // {
+  //   question: "幸",
+  //   options: {
+  //     jp: ["さいわい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Happiness", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "さいわい",
+  //     en: "Happiness" }
+  // },
+  // {
+  //   question: "固",
+  //   options: {
+  //     jp: ["かたい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Hard", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "かたい",
+  //     en: "Hard" }
+  // },
+  // {
+  //   question: "季",
+  //   options: {
+  //     jp: ["き", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Season", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "き",
+  //     en: "Season" }
+  // },
+  // {
+  //   question: "岸",
+  //   options: {
+  //     jp: ["きし", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Coast", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "きし",
+  //     en: "Coast" }
+  // },
+  // {
+  //   question: "岩",
+  //   options: {
+  //     jp: ["いわ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Rock", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "いわ",
+  //     en: "Rock" }
+  // },
+  // {
+  //   question: "泣",
+  //   options: {
+  //     jp: ["なく", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Cry", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "なく",
+  //     en: "Cry" }
+  // },
+  // {
+  //   question: "協",
+  //   options: {
+  //     jp: ["きょう", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Cooperation", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "きょう",
+  //     en: "Cooperation" }
+  // },
+  // {
+  //   question: "居",
+  //   options: {
+  //     jp: ["い", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Reside", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "い",
+  //     en: "Reside" }
+  // },
+  // {
+  //   question: "苦",
+  //   options: {
+  //     jp: ["くるしい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Suffering", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "くるしい",
+  //     en: "Suffering" }
+  // },
+  // {
+  //   question: "具",
+  //   options: {
+  //     jp: ["ぐ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Tool", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ぐ",
+  //     en: "Tool" }
+  // },
+  // {
+  //   question: "果",
+  //   options: {
+  //     jp: ["はたす", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Fruit", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "はたす",
+  //     en: "Fruit" }
+  // },
+  // // 河	官	委	易	育	泳	直	定	底	的	性	昔	制
+  // {
+  //   question: "河",
+  //   options: {
+  //     jp: ["かわ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["River", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "かわ",
+  //     en: "River" }
+  // },
+  // {
+  //   question: "官",
+  //   options: {
+  //     jp: ["かん", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Official", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "かん",
+  //     en: "Official" }
+  // },
+  // {
+  //   question: "委",
+  //   options: {
+  //     jp: ["ゆだねる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Commit", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ゆだねる",
+  //     en: "Commit" }
+  // },
+  // {
+  //   question: "易",
+  //   options: {
+  //     jp: ["やさしい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Easy", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "やさしい",
+  //     en: "Easy" }
+  // },
+  // {
+  //   question: "育",
+  //   options: {
+  //     jp: ["そだつ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Raise", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "そだつ",
+  //     en: "Raise" }
+  // },
+  // {
+  //   question: "泳",
+  //   options: {
+  //     jp: ["およぐ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Swim", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "およぐ",
+  //     en: "Swim" }
+  // },
+  // {
+  //   question: "直",
+  //   options: {
+  //     jp: ["ただちに", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Straight", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ただちに",
+  //     en: "Straight" }
+  // },
+  // {
+  //   question: "定",
+  //   options: {
+  //     jp: ["さだめる", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Decide", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "さだめる",
+  //     en: "Decide" }
+  // },
+  // {
+  //   question: "底",
+  //   options: {
+  //     jp: ["そこ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Bottom", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "そこ",
+  //     en: "Bottom" }
+  // },
+  // {
+  //   question: "的",
+  //   options: {
+  //     jp: ["まと", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Target", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "まと",
+  //     en: "Target" }
+  // },
+  // {
+  //   question: "性",
+  //   options: {
+  //     jp: ["せい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Nature", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "せい",
+  //     en: "Nature" }
+  // },
+  // {
+  //   question: "昔",
+  //   options: {
+  //     jp: ["むかし", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Past", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "むかし",
+  //     en: "Past" }
+  // },
+  // {
+  //   question: "制",
+  //   options: {
+  //     jp: ["せい", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Control", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "せい",
+  //     en: "Control" }
+  // },
+  // // 卒	非	波	板	版	念	武	表	命	府	放	法	油
+  // {
+  //   question: "卒",
+  //   options: {
+  //     jp: ["そつ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Graduate", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "そつ",
+  //     en: "Graduate" }
+  // },
+  // {
+  //   question: "非",
+  //   options: {
+  //     jp: ["ひ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Non-", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ひ",
+  //     en: "Non-" }
+  // },
+  // {
+  //   question: "波",
+  //   options: {
+  //     jp: ["なみ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Wave", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "なみ",
+  //     en: "Wave" }
+  // },
+  // {
+  //   question: "板",
+  //   options: {
+  //     jp: ["いた", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Board", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "いた",
+  //     en: "Board" }
+  // },
+  // {
+  //   question: "版",
+  //   options: {
+  //     jp: ["はん", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Edition", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "はん",
+  //     en: "Edition" }
+  // },
+  // {
+  //   question: "念",
+  //   options: {
+  //     jp: ["ねん", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Thought", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ねん",
+  //     en: "Thought" }
+  // },
+  // {
+  //   question: "武",
+  //   options: {
+  //     jp: ["たけし", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Warrior", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "たけし",
+  //     en: "Warrior" }
+  // },
+  // {
+  //   question: "表",
+  //   options: {
+  //     jp: ["おもて", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Surface", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "おもて",
+  //     en: "Surface" }
+  // },
+  // {
+  //   question: "命",
+  //   options: {
+  //     jp: ["いのち", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Life", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "いのち",
+  //     en: "Life" }
+  // },
+  // {
+  //   question: "府",
+  //   options: {
+  //     jp: ["ふ", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Prefecture", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ふ",
+  //     en: "Prefecture" }
+  // },
+  // {
+  //   question: "放",
+  //   options: {
+  //     jp: ["はなす", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Release", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "はなす",
+  //     en: "Release" }
+  // },
+  // {
+  //   question: "法",
+  //   options: {
+  //     jp: ["ほう", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Law", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "ほう",
+  //     en: "Law" }
+  // },
+  // {
+  //   question: "油",
+  //   options: {
+  //     jp: ["あぶら", "あめ", "ようじん", "ひゃく"],
+  //     en: ["Oil", "Rain", "Sun", "Hundred"] },
+  //   answer: {
+  //     jp: "あぶら",
+  //     en: "Oil" }
+  // },
+  // // 勇	要	負	迷	約	面	変	飛	美	独	則	相	草
+  // {
+  //   question: "勇",
+  //   options: {
+  //     jp: ["いさむ", "いる", "いけ", "いのる"],
+  //     en: ["Brave", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "いさむ",
+  //     en: "Brave" }
+  // },
+  // {
+  //   question: "要",
+  //   options: {
+  //     jp: ["おなじ", "いる", "いけ", "いのる"],
+  //     en: ["Need", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "おなじ",
+  //     en: "Need" }
+  // },
+  // {
+  //   question: "負",
+  //   options: {
+  //     jp: ["まける", "いる", "いけ", "いのる"],
+  //     en: ["Lose", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "まける",
+  //     en: "Lose" }
+  // },
+  // {
+  //   question: "迷",
+  //   options: {
+  //     jp: ["まよう", "いる", "いけ", "いのる"],
+  //     en: ["Lost", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "まよう",
+  //     en: "Lost" }
+  // },
+  // {
+  //   question: "約",
+  //   options: {
+  //     jp: ["やく", "いる", "いけ", "いのる"],
+  //     en: ["Promise", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "やく",
+  //     en: "Promise" }
+  // },
+  // {
+  //   question: "面",
+  //   options: {
+  //     jp: ["つら", "いる", "いけ", "いのる"],
+  //     en: ["Face", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "つら",
+  //     en: "Face" }
+  // },
+  // {
+  //   question: "変",
+  //   options: {
+  //     jp: ["かわる", "いる", "いけ", "いのる"],
+  //     en: ["Change", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "かわる",
+  //     en: "Change" }
+  // },
+  // {
+  //   question: "飛",
+  //   options: {
+  //     jp: ["とぶ", "いる", "いけ", "いのる"],
+  //     en: ["Fly", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "とぶ",
+  //     en: "Fly" }
+  // },
+  // {
+  //   question: "美",
+  //   options: {
+  //     jp: ["うつくしい", "いる", "いけ", "いのる"],
+  //     en: ["Beautiful", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "うつくしい",
+  //     en: "Beautiful" }
+  // },
+  // {
+  //   question: "独",
+  //   options: {
+  //     jp: ["ひとり", "いる", "いけ", "いのる"],
+  //     en: ["Alone", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "ひとり",
+  //     en: "Alone" }
+  // },
+  // {
+  //   question: "則",
+  //   options: {
+  //     jp: ["のっとる", "いる", "いけ", "いのる"],
+  //     en: ["Rule", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "のっとる",
+  //     en: "Rule" }
+  // },
+  // {
+  //   question: "相",
+  //   options: {
+  //     jp: ["あい", "いる", "いけ", "いのる"],
+  //     en: ["Mutual", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "あい",
+  //     en: "Mutual" }
+  // },
+  // {
+  //   question: "草",
+  //   options: {
+  //     jp: ["くさ", "いる", "いけ", "いのる"],
+  //     en: ["Grass", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "くさ",
+  //     en: "Grass" }
+  // },
+  // // 祖	信	政	星	点	追	単	炭	退	栄	科	活	胃
+  // {
+  //   question: "祖",
+  //   options: {
+  //     jp: ["そ", "いる", "いけ", "いのる"],
+  //     en: ["Ancestor", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "そ",
+  //     en: "Ancestor" }
+  // },
+  // {
+  //   question: "信",
+  //   options: {
+  //     jp: ["しん", "いる", "いけ", "いのる"],
+  //     en: ["Trust", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "しん",
+  //     en: "Trust" }
+  // },
+  // {
+  //   question: "政",
+  //   options: {
+  //     jp: ["まつりごと", "いる", "いけ", "いのる"],
+  //     en: ["Politics", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "まつりごと",
+  //     en: "Politics" }
+  // },
+  // {
+  //   question: "星",
+  //   options: {
+  //     jp: ["ほし", "いる", "いけ", "いのる"],
+  //     en: ["Star", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "ほし",
+  //     en: "Star" }
+  // },
+  // {
+  //   question: "点",
+  //   options: {
+  //     jp: ["てん", "いる", "いけ", "いのる"],
+  //     en: ["Point", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "てん",
+  //     en: "Point" }
+  // },
+  // {
+  //   question: "追",
+  //   options: {
+  //     jp: ["おう", "いる", "いけ", "いのる"],
+  //     en: ["Chase", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "おう",
+  //     en: "Chase" }
+  // },
+  // {
+  //   question: "単",
+  //   options: {
+  //     jp: ["たん", "いる", "いけ", "いのる"],
+  //     en: ["Single", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "たん",
+  //     en: "Single" }
+  // },
+  // {
+  //   question: "炭",
+  //   options: {
+  //     jp: ["すみ", "いる", "いけ", "いのる"],
+  //     en: ["Charcoal", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "すみ",
+  //     en: "Charcoal" }
+  // },
+  // {
+  //   question: "退",
+  //   options: {
+  //     jp: ["しりぞく", "いる", "いけ", "いのる"],
+  //     en: ["Retreat", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "しりぞく",
+  //     en: "Retreat" }
+  // },
+  // {
+  //   question: "栄",
+  //   options: {
+  //     jp: ["さかえる", "いる", "いけ", "いのる"],
+  //     en: ["Prosper", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "さかえる",
+  //     en: "Prosper" }
+  // },
+  // {
+  //   question: "科",
+  //   options: {
+  //     jp: ["か", "いる", "いけ", "いのる"],
+  //     en: ["Science", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "か",
+  //     en: "Science" }
+  // },
+  // {
+  //   question: "活",
+  //   options: {
+  //     jp: ["かつ", "いる", "いけ", "いのる"],
+  //     en: ["Active", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "かつ",
+  //     en: "Active" }
+  // },
+  // {
+  //   question: "胃",
+  //   options: {
+  //     jp: ["い", "いる", "いけ", "いのる"],
+  //     en: ["Stomach", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "い",
+  //     en: "Stomach" }
+  // },
+  // // 級	軍	係	型	客	逆	限	厚	指	昨	祝	神	査
+  // {
+  //   question: "級",
+  //   options: {
+  //     jp: ["きゅう", "いる", "いけ", "いのる"],
+  //     en: ["Grade", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "きゅう",
+  //     en: "Grade" }
+  // },
+  // {
+  //   question: "軍",
+  //   options: {
+  //     jp: ["ぐん", "いる", "いけ", "いのる"],
+  //     en: ["Army", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "ぐん",
+  //     en: "Army" }
+  // },
+  // {
+  //   question: "係",
+  //   options: {
+  //     jp: ["かかり", "いる", "いけ", "いのる"],
+  //     en: ["Responsibility", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "かかり",
+  //     en: "Responsibility" }
+  // },
+  // {
+  //   question: "型",
+  //   options: {
+  //     jp: ["かた", "いる", "いけ", "いのる"],
+  //     en: ["Type", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "かた",
+  //     en: "Type" }
+  // },
+  // {
+  //   question: "客",
+  //   options: {
+  //     jp: ["きゃく", "いる", "いけ", "いのる"],
+  //     en: ["Guest", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "きゃく",
+  //     en: "Guest" }
+  // },
+  // {
+  //   question: "逆",
+  //   options: {
+  //     jp: ["さかさま", "いる", "いけ", "いのる"],
+  //     en: ["Opposite", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "さかさま",
+  //     en: "Opposite" }
+  // },
+  // {
+  //   question: "限",
+  //   options: {
+  //     jp: ["かぎる", "いる", "いけ", "いのる"],
+  //     en: ["Limit", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "かぎる",
+  //     en: "Limit" }
+  // },
+  // {
+  //   question: "厚",
+  //   options: {
+  //     jp: ["あつい", "いる", "いけ", "いのる"],
+  //     en: ["Thick", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "あつい",
+  //     en: "Thick" }
+  // },
+  // {
+  //   question: "指",
+  //   options: {
+  //     jp: ["ゆび", "いる", "いけ", "いのる"],
+  //     en: ["Finger", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "ゆび",
+  //     en: "Finger" }
+  // },
+  // {
+  //   question: "昨",
+  //   options: {
+  //     jp: ["さく", "いる", "いけ", "いのる"],
+  //     en: ["Yesterday", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "さく",
+  //     en: "Yesterday" }
+  // },
+  // {
+  //   question: "祝",
+  //   options: {
+  //     jp: ["いわう", "いる", "いけ", "いのる"],
+  //     en: ["Celebrate", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "いわう",
+  //     en: "Celebrate" }
+  // },
+  // {
+  //   question: "神",
+  //   options: {
+  //     jp: ["かみ", "いる", "いけ", "いのる"],
+  //     en: ["God", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "かみ",
+  //     en: "God" }
+  // },
+  // {
+  //   question: "査",
+  //   options: {
+  //     jp: ["さ", "いる", "いけ", "いのる"],
+  //     en: ["Investigate", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "さ",
+  //     en: "Investigate" }
+  // },
+  // // 省	酒	笑	消	師	財	殺	差	残	航	根	個	候
+  // {
+  //   question: "省",
+  //   options: {
+  //     jp: ["しょう", "いる", "いけ", "いのる"],
+  //     en: ["Ministry", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "しょう",
+  //     en: "Ministry" }
+  // },
+  // {
+  //   question: "酒",
+  //   options: {
+  //     jp: ["さけ", "いる", "いけ", "いのる"],
+  //     en: ["Alcohol", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "さけ",
+  //     en: "Alcohol" }
+  // },
+  // {
+  //   question: "笑",
+  //   options: {
+  //     jp: ["わらう", "いる", "いけ", "いのる"],
+  //     en: ["Laugh", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "わらう",
+  //     en: "Laugh" }
+  // },
+  // {
+  //   question: "消",
+  //   options: {
+  //     jp: ["きえる", "いる", "いけ", "いのる"],
+  //     en: ["Disappear", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "きえる",
+  //     en: "Disappear" }
+  // },
+  // {
+  //   question: "師",
+  //   options: {
+  //     jp: ["し", "いる", "いけ", "いのる"],
+  //     en: ["Teacher", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "し",
+  //     en: "Teacher" }
+  // },
+  // {
+  //   question: "財",
+  //   options: {
+  //     jp: ["ざい", "いる", "いけ", "いのる"],
+  //     en: ["Wealth", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "ざい",
+  //     en: "Wealth" }
+  // },
+  // {
+  //   question: "殺",
+  //   options: {
+  //     jp: ["ころす", "いる", "いけ", "いのる"],
+  //     en: ["Kill", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "ころす",
+  //     en: "Kill" }
+  // },
+  // {
+  //   question: "差",
+  //   options: {
+  //     jp: ["さす", "いる", "いけ", "いのる"],
+  //     en: ["Difference", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "さす",
+  //     en: "Difference" }
+  // },
+  // {
+  //   question: "残",
+  //   options: {
+  //     jp: ["のこる", "いる", "いけ", "いのる"],
+  //     en: ["Remain", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "のこる",
+  //     en: "Remain" }
+  // },
+  // {
+  //   question: "航",
+  //   options: {
+  //     jp: ["こう", "いる", "いけ", "いのる"],
+  //     en: ["Navigation", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "こう",
+  //     en: "Navigation" }
+  // },
+  // {
+  //   question: "根",
+  //   options: {
+  //     jp: ["ね", "いる", "いけ", "いのる"],
+  //     en: ["Root", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "ね",
+  //     en: "Root" }
+  // },
+  // {
+  //   question: "個",
+  //   options: {
+  //     jp: ["こ", "いる", "いけ", "いのる"],
+  //     en: ["Individual", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "こ",
+  //     en: "Individual" }
+  // },
+  // {
+  //   question: "候",
+  //   options: {
+  //     jp: ["そうろう", "いる", "いけ", "いのる"],
+  //     en: ["Climate", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "そうろう",
+  //     en: "Climate" }
+  // },
+  // // 庫	記	訓	害	格	荷	帯	島	庭	徒	席	息	造
+  // {
+  //   question: "庫",
+  //   options: {
+  //     jp: ["くら", "いる", "いけ", "いのる"],
+  //     en: ["Warehouse", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "くら",
+  //     en: "Warehouse" }
+  // },
+  // {
+  //   question: "記",
+  //   options: {
+  //     jp: ["き", "いる", "いけ", "いのる"],
+  //     en: ["Record", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "き",
+  //     en: "Record" }
+  // },
+  // {
+  //   question: "訓",
+  //   options: {
+  //     jp: ["くん", "いる", "いけ", "いのる"],
+  //     en: ["Instruction", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "くん",
+  //     en: "Instruction" }
+  // },
+  // {
+  //   question: "害",
+  //   options: {
+  //     jp: ["がい", "いる", "いけ", "いのる"],
+  //     en: ["Harm", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "がい",
+  //     en: "Harm" }
+  // },
+  // {
+  //   question: "格",
+  //   options: {
+  //     jp: ["かく", "いる", "いけ", "いのる"],
+  //     en: ["Rank", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "かく",
+  //     en: "Rank" }
+  // },
+  // {
+  //   question: "荷",
+  //   options: {
+  //     jp: ["に", "いる", "いけ", "いのる"],
+  //     en: ["Cargo", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "に",
+  //     en: "Cargo" }
+  // },
+  // {
+  //   question: "帯",
+  //   options: {
+  //     jp: ["おびる", "いる", "いけ", "いのる"],
+  //     en: ["Belt", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "おびる",
+  //     en: "Belt" }
+  // },
+  // {
+  //   question: "島",
+  //   options: {
+  //     jp: ["しま", "いる", "いけ", "いのる"],
+  //     en: ["Island", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "しま",
+  //     en: "Island" }
+  // },
+  // {
+  //   question: "庭",
+  //   options: {
+  //     jp: ["にわ", "いる", "いけ", "いのる"],
+  //     en: ["Garden", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "にわ",
+  //     en: "Garden" }
+  // },
+  // {
+  //   question: "徒",
+  //   options: {
+  //     jp: ["いたずら", "いる", "いけ", "いのる"],
+  //     en: ["Follower", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "いたずら",
+  //     en: "Follower" }
+  // },
+  // {
+  //   question: "席",
+  //   options: {
+  //     jp: ["せき", "いる", "いけ", "いのる"],
+  //     en: ["Seat", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "せき",
+  //     en: "Seat" }
+  // },
+  // {
+  //   question: "息",
+  //   options: {
+  //     jp: ["いき", "いる", "いけ", "いのる"],
+  //     en: ["Breath", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "いき",
+  //     en: "Breath" }
+  // },
+  // {
+  //   question: "造",
+  //   options: {
+  //     jp: ["つくる", "いる", "いけ", "いのる"],
+  //     en: ["Create", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "つくる",
+  //     en: "Create" }
+  // },
+  // // 孫	速	能	配	倍	破	馬	浴	容	流	留	連	陸
+  // {
+  //   question: "孫",
+  //   options: {
+  //     jp: ["まご", "ひとごと", "こども", "いのる"],
+  //     en: ["Grandchild", "Affair", "Child", "Pray"] },
+  //   answer: {
+  //     jp: "まご",
+  //     en: "Grandchild" }
+  // },
+  // {
+  //   question: "速",
+  //   options: {
+  //     jp: ["はやい", "すばやい", "速度", "遅い"],
+  //     en: ["Fast", "Swift", "Speed", "Slow"]
+  //   },
+  //   answer: {
+  //     jp: "はやい",
+  //     en: "Fast"
+  //   }
+  // },
+  // {
+  //   question: "能",
+  //   options: {
+  //     jp: ["能力", "力", "技能", "無力"],
+  //     en: ["Ability", "Strength", "Skill", "Powerlessness"]
+  //   },
+  //   answer: {
+  //     jp: "能力",
+  //     en: "Ability"
+  //   }
+  // },
+  // {
+  //   question: "配",
+  //   options: {
+  //     jp: ["くばる", "いる", "いけ", "いのる"],
+  //     en: ["Distribute", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "くばる",
+  //     en: "Distribute" }
+  // },
+  // {
+  //   question: "倍",
+  //   options: {
+  //     jp: ["ばい", "いる", "いけ", "いのる"],
+  //     en: ["Double", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "ばい",
+  //     en: "Double" }
+  // },
+  // {
+  //   question: "破",
+  //   options: {
+  //     jp: ["やぶる", "いる", "いけ", "いのる"],
+  //     en: ["Break", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "やぶる",
+  //     en: "Break" }
+  // },
+  // {
+  //   question: "馬",
+  //   options: {
+  //     jp: ["うま", "いる", "いけ", "いのる"],
+  //     en: ["Horse", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "うま",
+  //     en: "Horse" }
+  // },
+  // {
+  //   question: "浴",
+  //   options: {
+  //     jp: ["あびる", "いる", "いけ", "いのる"],
+  //     en: ["Bathe", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "あびる",
+  //     en: "Bathe" }
+  // },
+  // {
+  //   question: "容",
+  //   options: {
+  //     jp: ["いれる", "いる", "いけ", "いのる"],
+  //     en: ["Appearance", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "いれる",
+  //     en: "Appearance" }
+  // },
+  // {
+  //   question: "流",
+  //   options: {
+  //     jp: ["ながれる", "いる", "いけ", "いのる"],
+  //     en: ["Flow", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "ながれる",
+  //     en: "Flow" }
+  // },
+  // {
+  //   question: "留",
+  //   options: {
+  //     jp: ["とどめる", "いる", "いけ", "いのる"],
+  //     en: ["Stay", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "とどめる",
+  //     en: "Stay" }
+  // },
+  // {
+  //   question: "連",
+  //   options: {
+  //     jp: ["つれてくる", "いる", "いけ", "いのる"],
+  //     en: ["Connect", "Need", "Lose", "Lose"] },
+  //   answer: {
+  //     jp: "つれてくる",
+  //     en: "Connect" }
+  // },
+  // {
+  //   question: "陸",
+  //   options: {
+  //     jp: ["おか", "つく", "うみ", "なり"],
+  //     en: ["Land", "Arrive", "Sea", "Become"] },
+  //   answer: {
+  //     jp: "おか",
+  //     en: "Land" }
+  // },
   // 率	略	望	務	敗	部	副	婦	側	組	責	接	船
   // 商	設	雪	清	深	得	第	停	断	貨	液	移	経
   // 規	寄	許	球	救	険	現	混	祭	細	術	宿	章
