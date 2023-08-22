@@ -267,6 +267,7 @@ switchButton.addEventListener("click", () => {
   } else {
     currentLanguage = "jp";
     switchButton.textContent = "English";
+    switchButton.style.margin = "0 auto";
   }
   loadQuestion();
 });
