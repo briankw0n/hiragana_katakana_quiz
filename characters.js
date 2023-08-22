@@ -4900,8 +4900,8 @@ const kanjiCharacters = [
   {
     question: "孫",
     options: {
-      jp: ["まご", "いる", "いけ", "いのる"],
-      en: ["Grandchild", "Need", "Lose", "Lose"] },
+      jp: ["まご", "ひとごと", "こども", "いのる"],
+      en: ["Grandchild", "Affair", "Child", "Pray"] },
     answer: {
       jp: "まご",
       en: "Grandchild" }
@@ -4909,20 +4909,24 @@ const kanjiCharacters = [
   {
     question: "速",
     options: {
-      jp: ["はやい", "いる", "いけ", "いのる"],
-      en: ["Fast", "Need", "Lose", "Lose"] },
+      jp: ["はやい", "すばやい", "速度", "遅い"],
+      en: ["Fast", "Swift", "Speed", "Slow"]
+    },
     answer: {
       jp: "はやい",
-      en: "Fast" }
+      en: "Fast"
+    }
   },
   {
     question: "能",
     options: {
-      jp: ["よう", "いる", "いけ", "いのる"],
-      en: ["Ability", "Need", "Lose", "Lose"] },
+      jp: ["能力", "力", "技能", "無力"],
+      en: ["Ability", "Strength", "Skill", "Powerlessness"]
+    },
     answer: {
-      jp: "よう",
-      en: "Ability" }
+      jp: "能力",
+      en: "Ability"
+    }
   },
   {
     question: "配",
@@ -5008,8 +5012,8 @@ const kanjiCharacters = [
   {
     question: "陸",
     options: {
-      jp: ["おか", "いる", "いけ", "いのる"],
-      en: ["Land", "Need", "Lose", "Lose"] },
+      jp: ["おか", "つく", "うみ", "なり"],
+      en: ["Land", "Arrive", "Sea", "Become"] },
     answer: {
       jp: "おか",
       en: "Land" }
